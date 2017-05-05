@@ -1,26 +1,14 @@
 {
   "static": {
     "urls": {
-      "/polyfills.483504aeb680d9daff1d.bundle.js": "3819ee3202f042246bde8d06ec846e6cd947c270",
-      "/main.d4a596d61e64490f547d.bundle.js": "92cc3698e4e5aa4c1177189c43ff31ce8d660ce8",
+      "/polyfills.6d4e74bac816f358e99f.bundle.js": "5620e02c5443a4ca0313d99a8a9cf18fdc781087",
+      "/main.4ac394ab6391f9c3d0de.bundle.js": "b7cea10a7c32a20e31132af36df8aa9efb8059db",
       "/sw-register.b73048fe3d9f8a1e7ae5.bundle.js": "a98270c864fc34e37b1d992bfe5994323558c2f8",
-      "/vendor.e96c33b1762cb895a7a0.bundle.js": "350999946dfdc9cb7ff2fd1a711c5d00d1959428",
-      "/inline.2aa5d6653a993d50a4ec.bundle.js": "d09a1ff2179fbd76b56c0e51130b92f30ef1f121",
-      "/styles.8d2576146a64f10002dd.bundle.css": "3d445e2e8735c4eb524649ed88e4f0ebd68a65e2",
-      "/assets/icons/android/android-launchericon-144-144.png": "2190c048d3add5d946fddf4ac3a9aa42f9a61f7f",
-      "/assets/icons/android/android-launchericon-192-192.png": "add430161d98f488b052e413fb87b2dc1453c6b8",
-      "/assets/icons/android/android-launchericon-48-48.png": "b718a9eada7f2ec2ff298685bd457cb2caf17593",
-      "/assets/icons/android/android-launchericon-512-512.png": "96464374a09124002bd303edcb424772d2b2da9a",
-      "/assets/icons/android/android-launchericon-72-72.png": "870954ad0692d797b6406fd8ef0b736701d3827b",
-      "/assets/icons/android/android-launchericon-96-96.png": "01e4d407f5df0ae7c101f17d7f4002d039ae7683",
-      "/assets/icons/chrome/chrome-extensionmanagementpage-48-48.png": "b718a9eada7f2ec2ff298685bd457cb2caf17593",
-      "/assets/icons/chrome/chrome-favicon-16-16.png": "5ec2b37ac7500bd36f0e175815d64fa9a9103b3d",
-      "/assets/icons/chrome/chrome-installprocess-128-128.png": "403682337e510659bc30dee477d6844956101a1f",
-      "/assets/images/logo.png": "7fd7d54f98ebd1c8a0d2d956ad613ebb7a471d71",
-      "/assets/pink-bluegrey.css": "38ce8ebe622ecee3d45aee0b23ec1a1ed5922fbc",
-      "/favicon.ico": "cd5c7399c1a8570c4a663df6a4a20a6ebffb3003",
-      "/manifest.json": "fcb614c078b917c605af6b1064ed382d0769766f",
-      "/index.html": "9da29556c61698e5a1a64b62a79f8f01426e778a"
+      "/vendor.33e6e72b0e9070250657.bundle.js": "ae5956d83fe57b739e764078628c3a66b1e96f67",
+      "/inline.256bd21def34717386b1.bundle.js": "cf89b708d0c53fbde87634100a841bf572ce5646",
+      "/styles.d41d8cd98f00b204e980.bundle.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+      "/index.html": "454cec02e707b9b1de23a77cf0d8375ec6af3613"
     },
     "_generatedFromWebpack": true
   }
