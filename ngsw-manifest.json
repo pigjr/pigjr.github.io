@@ -2,10 +2,10 @@
   "static": {
     "urls": {
       "/polyfills.6d4e74bac816f358e99f.bundle.js": "5620e02c5443a4ca0313d99a8a9cf18fdc781087",
-      "/main.6ba731efdf5a2922a476.bundle.js": "7945c77768086f5c7298daa7b9de2a7cad1f0c10",
+      "/main.7dfff500d53bbe06f074.bundle.js": "1f9c864b908fa66d52988944a159256fa5a0478d",
       "/sw-register.b73048fe3d9f8a1e7ae5.bundle.js": "a98270c864fc34e37b1d992bfe5994323558c2f8",
-      "/vendor.88d08eab7208cb83fd13.bundle.js": "5d47dfa205c45b970bc129867f53517b2cf1896b",
-      "/inline.dd47a4f11785849cef82.bundle.js": "3da4c0bd843fe12128361a0f08266a23bf994985",
+      "/vendor.6bbc7077c9439ca1cde0.bundle.js": "ac02e5c104b31e9b1c60af21777cbfcd3e9bf3b9",
+      "/inline.bae87f339c66edeed814.bundle.js": "c5c7d80fbd1dac9f5fe8967b10b98145b4778e4f",
       "/styles.e1eb158671d001aa505b.bundle.css": "44db0f92279b43a0a53105312188b8119df654af",
       "/assets/icons/android-chrome-192x192.png": "d6dfa5495cbda1c26bdef91d6a96714cf564fdc7",
       "/assets/icons/apple-touch-icon-120x120.png": "b89c481079576510bafc292c3fa4a0c57baea784",
@@ -22,10 +22,11 @@
       "/assets/icons/mstile-150x150.png": "fc48d375077a94f8e8c9b814d2bb7e679bcda714",
       "/assets/icons/safari-pinned-tab.svg": "5d9f117d13eca90a4f9ee2b8b35b19a842888ed2",
       "/assets/pink-bluegrey.css": "38ce8ebe622ecee3d45aee0b23ec1a1ed5922fbc",
-      "/assets/TEMP.md": "95c437e37605455d2af23230d8fccc87eb0d9cbb",
+      "/assets/src.zip": "fba7b87d5ec8177173cee36ce8758300b8b6c2aa",
+      "/assets/TEMP.md": "d7d1174aa145d21969221c9c11849fb1b4ea5234",
       "/favicon.ico": "0cd4b58db75790612e773424104fe12ef4828dfa",
-      "/manifest.json": "7a1abdbe7070219deeb22c458e4cba27e65e8a18",
-      "/index.html": "a6ed56f7ccac2e3da6884c6249b2f4b12f5cda9d"
+      "/manifest.json": "85a2e4d96ad7710c195dd64f847e9c2b6636a64d",
+      "/index.html": "95542c933c4524780c28d5e46e77df7078de8163"
     },
     "_generatedFromWebpack": true
   }
