@@ -9,8 +9,8 @@
       "/styles.e1eb158671d001aa505b.bundle.css": "44db0f92279b43a0a53105312188b8119df654af",
       "/assets/icons/android-chrome-192x192.png": "d6dfa5495cbda1c26bdef91d6a96714cf564fdc7",
       "/assets/icons/apple-touch-icon-120x120.png": "b89c481079576510bafc292c3fa4a0c57baea784",
-      "/assets/icons/apple-touch-icon-152x152.png": "47bc2ca1a4fb14809aec52131a92813251bf874f",
       "/assets/icons/apple-touch-icon-180x180.png": "42285883f25d9e5da401bf7cd3306d48cd33cf82",
+      "/assets/icons/apple-touch-icon-152x152.png": "47bc2ca1a4fb14809aec52131a92813251bf874f",
       "/assets/icons/apple-touch-icon-60x60.png": "138132ae489080d4af7c91f315b944fa8d7b5aa8",
       "/assets/icons/apple-touch-icon-76x76.png": "9f68a798b3f7ec6c4024c8dd5429a02db57a2934",
       "/assets/icons/apple-touch-icon.png": "42285883f25d9e5da401bf7cd3306d48cd33cf82",
@@ -22,8 +22,9 @@
       "/assets/icons/mstile-150x150.png": "fc48d375077a94f8e8c9b814d2bb7e679bcda714",
       "/assets/icons/safari-pinned-tab.svg": "5d9f117d13eca90a4f9ee2b8b35b19a842888ed2",
       "/assets/pink-bluegrey.css": "38ce8ebe622ecee3d45aee0b23ec1a1ed5922fbc",
-      "/assets/TEMP.md": "9a31d79b26d6d72d67a6ef87e308caffa80bd42c",
+      "/assets/TEMP.md": "95c437e37605455d2af23230d8fccc87eb0d9cbb",
       "/favicon.ico": "0cd4b58db75790612e773424104fe12ef4828dfa",
+      "/manifest.json": "3c570e0614704ee9f8f675478df10c5e5fbfea63",
       "/index.html": "a6ed56f7ccac2e3da6884c6249b2f4b12f5cda9d"
     },
     "_generatedFromWebpack": true

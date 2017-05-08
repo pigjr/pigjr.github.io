@@ -4,7 +4,7 @@ Add `"serviceWorker": true,` in `.angular-cli.json` then `yarn add --dev @angula
 
 ## 2. Add manifest.json and assets
 
-TODO
+Add `manifest.json` into `assets` section in `.angular-cli.json`
 
 ## 3. Add @angular/router
 
