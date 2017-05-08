@@ -2,17 +2,17 @@
   "static": {
     "urls": {
       "/polyfills.6d4e74bac816f358e99f.bundle.js": "5620e02c5443a4ca0313d99a8a9cf18fdc781087",
-      "/main.7dfff500d53bbe06f074.bundle.js": "1f9c864b908fa66d52988944a159256fa5a0478d",
+      "/main.bd631b25935277cf7e94.bundle.js": "c6d5c70f2e6170bf9bdb1e23f340758d25d22571",
       "/sw-register.b73048fe3d9f8a1e7ae5.bundle.js": "a98270c864fc34e37b1d992bfe5994323558c2f8",
-      "/vendor.6bbc7077c9439ca1cde0.bundle.js": "ac02e5c104b31e9b1c60af21777cbfcd3e9bf3b9",
-      "/inline.bae87f339c66edeed814.bundle.js": "c5c7d80fbd1dac9f5fe8967b10b98145b4778e4f",
+      "/vendor.00f4f28c89c570c5cb0e.bundle.js": "7c375addbdf1b123c9d7f1456ff97afc82fd75f7",
+      "/inline.6bd8cdc79a607fea39b9.bundle.js": "197039475a13265e464ebffc4410d6170acf056c",
       "/styles.e1eb158671d001aa505b.bundle.css": "44db0f92279b43a0a53105312188b8119df654af",
       "/assets/.DS_Store": "06f418ad58680f0237549a8fe5ef17e99ae5f731",
       "/assets/icons/android-chrome-192x192.png": "d6dfa5495cbda1c26bdef91d6a96714cf564fdc7",
       "/assets/icons/apple-touch-icon-120x120.png": "b89c481079576510bafc292c3fa4a0c57baea784",
       "/assets/icons/apple-touch-icon-152x152.png": "47bc2ca1a4fb14809aec52131a92813251bf874f",
-      "/assets/icons/apple-touch-icon-60x60.png": "138132ae489080d4af7c91f315b944fa8d7b5aa8",
       "/assets/icons/apple-touch-icon-180x180.png": "42285883f25d9e5da401bf7cd3306d48cd33cf82",
+      "/assets/icons/apple-touch-icon-60x60.png": "138132ae489080d4af7c91f315b944fa8d7b5aa8",
       "/assets/icons/apple-touch-icon-76x76.png": "9f68a798b3f7ec6c4024c8dd5429a02db57a2934",
       "/assets/icons/apple-touch-icon.png": "42285883f25d9e5da401bf7cd3306d48cd33cf82",
       "/assets/icons/browserconfig.xml": "974aea18bda5a95802c06b80126ab1d96d91d708",
@@ -24,10 +24,12 @@
       "/assets/icons/safari-pinned-tab.svg": "5d9f117d13eca90a4f9ee2b8b35b19a842888ed2",
       "/assets/pink-bluegrey.css": "38ce8ebe622ecee3d45aee0b23ec1a1ed5922fbc",
       "/assets/src.zip": "fba7b87d5ec8177173cee36ce8758300b8b6c2aa",
-      "/assets/TEMP.md": "d7d1174aa145d21969221c9c11849fb1b4ea5234",
+      "/assets/TEMP.md": "30bfc6def5b9ee9ee22dd6832cb94c10e091521e",
+      "/assets/textures/2294472375_24a3b8ef46_o.jpg": "b679c80a592bcd98674ed9e675b61e9964dfc3e6",
+      "/assets/textures/crate.gif": "c2358deb8f16f7e4f066ebc355069f61e647fc3b",
       "/favicon.ico": "0cd4b58db75790612e773424104fe12ef4828dfa",
       "/manifest.json": "85a2e4d96ad7710c195dd64f847e9c2b6636a64d",
-      "/index.html": "b150c5ea5d69c36a31e45470d443fa3067e333f9"
+      "/index.html": "724a2d4377a3bd7e4686af2934ffac1f60ccbdad"
     },
     "_generatedFromWebpack": true
   }

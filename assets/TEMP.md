@@ -154,6 +154,18 @@ describe('TestMaterialComponent', () => {
   }));
 ```
 
+## 6. Install Untyped 3rd Party Library
+
+https://www.npmjs.com/package/angular-cli#3rd-party-library-installation
+
+### Spec testing
+
+`import * as LIBRARY from 'library';` is required for importing the namespace for spec testing
+
+### e2e testing
+
+not affected
+
 ## PWA testing
 
 Use [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to test the overall PWA score
