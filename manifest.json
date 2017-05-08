@@ -1,6 +1,6 @@
 {
-  "name": "Angular 2 HN",
-  "short_name": "Angular 2 HN",
+  "name": "LA App",
+  "short_name": "LA",
   "icons": [
     {
       "src": "assets/icons/android-chrome-192x192.png",
@@ -8,14 +8,20 @@
       "type": "image\/png"
     },
     {
-      "src": "assets/icons/android-chrome-256x256.png",
-      "sizes": "256x256",
+      "src": "/assets/icons/favicon-32x32.png",
+      "sizes": "32x32",
       "type": "image\/png"
     }
   ],
-  "theme_color": "#b92b27",
-  "background_color": "#ffffff",
+  "dir": "ltr",
+  "lang": "en",
+  "scope": "/",
   "display": "standalone",
-  "orientation": "portrait",
-  "start_url": "./?utm_source=web_app_manifest"
+  "start_url": "./?utm_source=web_app_manifest",
+  "theme_color": "#f27b00",
+  "description": "Some nice descriptions",
+  "orientation": "any",
+  "background_color": "#3a1c8d",
+  "related_applications": [],
+  "prefer_related_applications": false
 }
