@@ -7,11 +7,12 @@
       "/vendor.6bbc7077c9439ca1cde0.bundle.js": "ac02e5c104b31e9b1c60af21777cbfcd3e9bf3b9",
       "/inline.bae87f339c66edeed814.bundle.js": "c5c7d80fbd1dac9f5fe8967b10b98145b4778e4f",
       "/styles.e1eb158671d001aa505b.bundle.css": "44db0f92279b43a0a53105312188b8119df654af",
+      "/assets/.DS_Store": "06f418ad58680f0237549a8fe5ef17e99ae5f731",
       "/assets/icons/android-chrome-192x192.png": "d6dfa5495cbda1c26bdef91d6a96714cf564fdc7",
       "/assets/icons/apple-touch-icon-120x120.png": "b89c481079576510bafc292c3fa4a0c57baea784",
       "/assets/icons/apple-touch-icon-152x152.png": "47bc2ca1a4fb14809aec52131a92813251bf874f",
-      "/assets/icons/apple-touch-icon-180x180.png": "42285883f25d9e5da401bf7cd3306d48cd33cf82",
       "/assets/icons/apple-touch-icon-60x60.png": "138132ae489080d4af7c91f315b944fa8d7b5aa8",
+      "/assets/icons/apple-touch-icon-180x180.png": "42285883f25d9e5da401bf7cd3306d48cd33cf82",
       "/assets/icons/apple-touch-icon-76x76.png": "9f68a798b3f7ec6c4024c8dd5429a02db57a2934",
       "/assets/icons/apple-touch-icon.png": "42285883f25d9e5da401bf7cd3306d48cd33cf82",
       "/assets/icons/browserconfig.xml": "974aea18bda5a95802c06b80126ab1d96d91d708",
@@ -26,7 +27,7 @@
       "/assets/TEMP.md": "d7d1174aa145d21969221c9c11849fb1b4ea5234",
       "/favicon.ico": "0cd4b58db75790612e773424104fe12ef4828dfa",
       "/manifest.json": "85a2e4d96ad7710c195dd64f847e9c2b6636a64d",
-      "/index.html": "95542c933c4524780c28d5e46e77df7078de8163"
+      "/index.html": "b150c5ea5d69c36a31e45470d443fa3067e333f9"
     },
     "_generatedFromWebpack": true
   }
