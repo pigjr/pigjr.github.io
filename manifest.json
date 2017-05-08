@@ -22,6 +22,8 @@
   "description": "Some nice descriptions",
   "orientation": "any",
   "background_color": "#3a1c8d",
-  "related_applications": [],
+  "related_applications": [{
+    "platform": "web"
+  }],
   "prefer_related_applications": false
 }
