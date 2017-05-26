@@ -1,12 +1,14 @@
 {
   "static": {
     "urls": {
-      "/polyfills.e97cf3847d3b08d6196b.bundle.js": "97edaf1f636dc817b86e8a73a0b5f48cc3ae0297",
-      "/main.e0f9ff53482e7824fe9c.bundle.js": "daf76d7bd20465ab5a10124f046e7adc2dcb5070",
-      "/sw-register.34f73dafacbfb5f37c59.bundle.js": "19cd4dee0d579591f3ac4240d3c71ac72f86b46f",
-      "/vendor.9c0e9d17bcb2f5329d5d.bundle.js": "bad001905ee104dd568875b695289ca5118d04b0",
-      "/inline.59e8d6fd418a5cbbc96a.bundle.js": "9bdd8a55197d8a15035468b95cde7ef2c9f1f0d6",
-      "/styles.84bf4065402c7179f7d5.bundle.css": "06ee4f986972198aae2202853ae2eb29d6402342",
+      "/polyfills.56cfb8211a1efff918b1.bundle.js": "37bc8506c4b40a45476790be81265b4e16fc7988",
+      "/main.3989e6354dc9505656ab.bundle.js": "770552f28ed23495a2a9b6289a8bd32a8a969dab",
+      "/sw-register.b73048fe3d9f8a1e7ae5.bundle.js": "a98270c864fc34e37b1d992bfe5994323558c2f8",
+      "/vendor.0e8ad894b6afcbcd99a6.bundle.js": "f3b88cebab72ba9c712a41b1899971327b86b30b",
+      "/inline.4642c2fdf38483832ead.bundle.js": "b0dc649be5770590d787d6a7e7c48fc255ad6ad6",
+      "/styles.ef9a26d4778a811fba16.bundle.css": "941e975e2f0c2d08d1803d5f8e6297f6800706ec",
+      "/manifest.json": "83dbf489f4d1aa4b78db0a593b0613d376a47635",
+      "/assets/deeppurple-amber.css": "1fcecb4d6e26fc242eee0b2687c493be593f530f",
       "/assets/icons/android-chrome-192x192.png": "d6dfa5495cbda1c26bdef91d6a96714cf564fdc7",
       "/assets/icons/apple-touch-icon-120x120.png": "b89c481079576510bafc292c3fa4a0c57baea784",
       "/assets/icons/apple-touch-icon-152x152.png": "47bc2ca1a4fb14809aec52131a92813251bf874f",
@@ -21,12 +23,9 @@
       "/assets/icons/manifest.json": "e5d985c93fc2ee5a4430a257701a57552a29472f",
       "/assets/icons/mstile-150x150.png": "fc48d375077a94f8e8c9b814d2bb7e679bcda714",
       "/assets/icons/safari-pinned-tab.svg": "5d9f117d13eca90a4f9ee2b8b35b19a842888ed2",
-      "/assets/pink-bluegrey.css": "38ce8ebe622ecee3d45aee0b23ec1a1ed5922fbc",
-      "/assets/textures/164.png": "2cad7473e93a336618a2a7c31b05196dc34dd33e",
-      "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
       "/404.html": "3b7ffd3246a5b2d05163beea58b5fa3dcd9da543",
-      "/manifest.json": "2cc56334e9ebdc0fce7669dcff402ade6aa77711",
-      "/index.html": "fc19e97fa869d6e01e1e290f8adfd4bfc0954893"
+      "/favicon.ico": "0cd4b58db75790612e773424104fe12ef4828dfa",
+      "/index.html": "367272aa2fafd8c261b2bf9a7c1f95be2b41aac9"
     },
     "_generatedFromWebpack": true
   }
