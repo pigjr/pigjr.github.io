@@ -2,10 +2,10 @@
   "static": {
     "urls": {
       "/polyfills.56cfb8211a1efff918b1.bundle.js": "37bc8506c4b40a45476790be81265b4e16fc7988",
-      "/main.3989e6354dc9505656ab.bundle.js": "770552f28ed23495a2a9b6289a8bd32a8a969dab",
+      "/main.b4a4738e076e620546e5.bundle.js": "8761716b488a13472d3c0c052e34da51f122dfa7",
       "/sw-register.b73048fe3d9f8a1e7ae5.bundle.js": "a98270c864fc34e37b1d992bfe5994323558c2f8",
-      "/vendor.0e8ad894b6afcbcd99a6.bundle.js": "f3b88cebab72ba9c712a41b1899971327b86b30b",
-      "/inline.4642c2fdf38483832ead.bundle.js": "b0dc649be5770590d787d6a7e7c48fc255ad6ad6",
+      "/vendor.3cbdc22a661a27a7cafd.bundle.js": "9fc16891f98298bf20ca1a51676ce92f1ccf1640",
+      "/inline.864a63f1b116ec27b956.bundle.js": "c80e49af394a0fd1e083ca924605841b9c67a350",
       "/styles.ef9a26d4778a811fba16.bundle.css": "941e975e2f0c2d08d1803d5f8e6297f6800706ec",
       "/manifest.json": "83dbf489f4d1aa4b78db0a593b0613d376a47635",
       "/assets/deeppurple-amber.css": "1fcecb4d6e26fc242eee0b2687c493be593f530f",
@@ -25,7 +25,7 @@
       "/assets/icons/safari-pinned-tab.svg": "5d9f117d13eca90a4f9ee2b8b35b19a842888ed2",
       "/404.html": "3b7ffd3246a5b2d05163beea58b5fa3dcd9da543",
       "/favicon.ico": "0cd4b58db75790612e773424104fe12ef4828dfa",
-      "/index.html": "367272aa2fafd8c261b2bf9a7c1f95be2b41aac9"
+      "/index.html": "fea727991b6f48f5e66541dcf33e3fa9d2aa6eee"
     },
     "_generatedFromWebpack": true
   }
