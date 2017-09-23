@@ -1,0 +1,32 @@
+{
+  "static": {
+    "urls": {
+      "/polyfills.56cfb8211a1efff918b1.bundle.js": "37bc8506c4b40a45476790be81265b4e16fc7988",
+      "/main.b4a4738e076e620546e5.bundle.js": "8761716b488a13472d3c0c052e34da51f122dfa7",
+      "/sw-register.b73048fe3d9f8a1e7ae5.bundle.js": "a98270c864fc34e37b1d992bfe5994323558c2f8",
+      "/vendor.3cbdc22a661a27a7cafd.bundle.js": "9fc16891f98298bf20ca1a51676ce92f1ccf1640",
+      "/inline.864a63f1b116ec27b956.bundle.js": "c80e49af394a0fd1e083ca924605841b9c67a350",
+      "/styles.ef9a26d4778a811fba16.bundle.css": "941e975e2f0c2d08d1803d5f8e6297f6800706ec",
+      "/manifest.json": "83dbf489f4d1aa4b78db0a593b0613d376a47635",
+      "/assets/deeppurple-amber.css": "1fcecb4d6e26fc242eee0b2687c493be593f530f",
+      "/assets/icons/android-chrome-192x192.png": "d6dfa5495cbda1c26bdef91d6a96714cf564fdc7",
+      "/assets/icons/apple-touch-icon-120x120.png": "b89c481079576510bafc292c3fa4a0c57baea784",
+      "/assets/icons/apple-touch-icon-152x152.png": "47bc2ca1a4fb14809aec52131a92813251bf874f",
+      "/assets/icons/apple-touch-icon-180x180.png": "42285883f25d9e5da401bf7cd3306d48cd33cf82",
+      "/assets/icons/apple-touch-icon-60x60.png": "138132ae489080d4af7c91f315b944fa8d7b5aa8",
+      "/assets/icons/apple-touch-icon-76x76.png": "9f68a798b3f7ec6c4024c8dd5429a02db57a2934",
+      "/assets/icons/apple-touch-icon.png": "42285883f25d9e5da401bf7cd3306d48cd33cf82",
+      "/assets/icons/browserconfig.xml": "974aea18bda5a95802c06b80126ab1d96d91d708",
+      "/assets/icons/favicon-16x16.png": "fb69e9dc807c9fb589c2968086d72e52d48f98ce",
+      "/assets/icons/favicon-32x32.png": "460f3d22535f701f9bb998a67f349688f2409781",
+      "/assets/icons/favicon.ico": "0cd4b58db75790612e773424104fe12ef4828dfa",
+      "/assets/icons/manifest.json": "e5d985c93fc2ee5a4430a257701a57552a29472f",
+      "/assets/icons/mstile-150x150.png": "fc48d375077a94f8e8c9b814d2bb7e679bcda714",
+      "/assets/icons/safari-pinned-tab.svg": "5d9f117d13eca90a4f9ee2b8b35b19a842888ed2",
+      "/404.html": "3b7ffd3246a5b2d05163beea58b5fa3dcd9da543",
+      "/favicon.ico": "0cd4b58db75790612e773424104fe12ef4828dfa",
+      "/index.html": "fea727991b6f48f5e66541dcf33e3fa9d2aa6eee"
+    },
+    "_generatedFromWebpack": true
+  }
+}
