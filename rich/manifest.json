@@ -6,6 +6,7 @@
   "display": "standalone",
   "scope": "/rich/",
   "start_url": "/rich/",
+  "gcm_sender_id": "103953800507",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
