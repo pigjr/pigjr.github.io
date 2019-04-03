@@ -1,11 +1,11 @@
 {
-  "name": "Ling Kai Zhu",
-  "short_name": "Ling Kai Zhu",
+  "name": "home",
+  "short_name": "home",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",
-  "scope": "/",
-  "start_url": "/",
+  "scope": "/home/",
+  "start_url": "/home/",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",

@@ -1,0 +1,84 @@
+{
+  "configVersion": 1,
+  "timestamp": 1554316990452,
+  "index": "/home/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/home/favicon.ico",
+        "/home/index.html",
+        "/home/main.0e0c1b4bcd226a917b01.js",
+        "/home/polyfills.a9c6c782de0934a4d64c.js",
+        "/home/runtime.26209474bfa8dc87a77c.js",
+        "/home/scripts.97700c1bdb9559f050ff.js",
+        "/home/styles.3ff695c00d717f2d2a11.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/home/assets/icons/icon-128x128.png",
+        "/home/assets/icons/icon-144x144.png",
+        "/home/assets/icons/icon-152x152.png",
+        "/home/assets/icons/icon-192x192.png",
+        "/home/assets/icons/icon-384x384.png",
+        "/home/assets/icons/icon-512x512.png",
+        "/home/assets/icons/icon-72x72.png",
+        "/home/assets/icons/icon-96x96.png",
+        "/home/assets/img/L.png",
+        "/home/assets/img/board.jpg",
+        "/home/assets/img/floor.jpg",
+        "/home/assets/img/sky.jpg",
+        "/home/assets/main.js"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/home/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/home/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/home/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/home/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/home/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/home/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/home/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/home/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/home/assets/img/L.png": "949d4c9596bfdf4bb668f230d140b5fdd813e84d",
+    "/home/assets/img/board.jpg": "901af5dcfeaff795c1f4dd3bf5635f21bcb5d378",
+    "/home/assets/img/floor.jpg": "b37e32ead04fe20c1a4ce6576f838daaa89bf833",
+    "/home/assets/img/sky.jpg": "b9aebc56e53fd6629c1b644a39c64d7c31eeab48",
+    "/home/assets/main.js": "8260ad9cbace1c52dd4e5edfa617991752a0d6fd",
+    "/home/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/home/index.html": "15c5609e0e0abd2cfc68832739131b89a2485098",
+    "/home/main.0e0c1b4bcd226a917b01.js": "6ca860eceb7de79eff906968f9ac00889eaed6b1",
+    "/home/polyfills.a9c6c782de0934a4d64c.js": "7e1c196efa3935776d5e0862a03ccb69f484a6ef",
+    "/home/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/home/scripts.97700c1bdb9559f050ff.js": "c09c7a7e362f72f9a6fc8c0ec4d2a2d2c300baf0",
+    "/home/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
