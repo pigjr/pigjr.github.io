@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1554318451200,
+  "timestamp": 1554323123072,
   "index": "/home/index.html",
   "assetGroups": [
     {
@@ -10,11 +10,11 @@
       "urls": [
         "/home/favicon.ico",
         "/home/index.html",
-        "/home/main.0e0c1b4bcd226a917b01.js",
+        "/home/main.982eab585304a4135cfc.js",
         "/home/polyfills.a9c6c782de0934a4d64c.js",
         "/home/runtime.26209474bfa8dc87a77c.js",
         "/home/scripts.97700c1bdb9559f050ff.js",
-        "/home/styles.3ff695c00d717f2d2a11.css"
+        "/home/styles.049bc107d1821a0e9c6c.css"
       ],
       "patterns": []
     },
@@ -56,12 +56,12 @@
     "/home/assets/img/sky.jpg": "b9aebc56e53fd6629c1b644a39c64d7c31eeab48",
     "/home/assets/main.js": "8260ad9cbace1c52dd4e5edfa617991752a0d6fd",
     "/home/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/home/index.html": "15c5609e0e0abd2cfc68832739131b89a2485098",
-    "/home/main.0e0c1b4bcd226a917b01.js": "6ca860eceb7de79eff906968f9ac00889eaed6b1",
+    "/home/index.html": "58a516293a958ff80113a6f8f1b55aecf91e897d",
+    "/home/main.982eab585304a4135cfc.js": "dfa2110c301eed51a8e3139169a47456693e5feb",
     "/home/polyfills.a9c6c782de0934a4d64c.js": "7e1c196efa3935776d5e0862a03ccb69f484a6ef",
     "/home/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/home/scripts.97700c1bdb9559f050ff.js": "c09c7a7e362f72f9a6fc8c0ec4d2a2d2c300baf0",
-    "/home/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "/home/styles.049bc107d1821a0e9c6c.css": "303aabac2c6dfde849fbdd836a8078fce276cbe5"
   },
   "navigationUrls": [
     {
