@@ -1,10 +1,10 @@
 AFRAME.registerComponent('gpoly', {
     schema: {
+        polyid: { default: '' },
         API_KEY: { default: '' }
     },
     init() {
         const id = this.data.polyid;
-        console.log(id);
         const API_KEY = this.data.API_KEY;
         const url = 'https://poly.googleapis.com/v1/assets/' + id + '/?key=' + API_KEY;
         const el = this.el;
