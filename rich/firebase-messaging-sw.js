@@ -14,15 +14,10 @@ firebase.initializeApp({
 // messages.
 const messaging = firebase.messaging();
 
-messaging.setBackgroundMessageHandler(async (payload) => {
+messaging.setBackgroundMessageHandler((payload) => {
   const notificationOptions = {
     body: payload.body,
   };
-  await sleep(10000);
   return self.registration.showNotification(payload.title,
     notificationOptions);
 });
-
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
