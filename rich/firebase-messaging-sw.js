@@ -9,15 +9,23 @@ importScripts('https://www.gstatic.com/firebasejs/4.8.1/firebase-messaging.js');
 firebase.initializeApp({
   'messagingSenderId': '683862053510'
 });
+const lang = new URL(location).searchParams.get('lang') || 'en';
 
 // Retrieve an instance of Firebase Messaging so that it can handle background
 // messages.
 const messaging = firebase.messaging();
-
 messaging.setBackgroundMessageHandler((payload) => {
-  const notificationOptions = {
-    body: payload.body,
-  };
-  return self.registration.showNotification(payload.title,
-    notificationOptions);
+  try {
+    const data = JSON.parse(payload.data.data);
+    const lang = navigator.language.substr(0, 2);
+    if (lang in data) {
+      const notificationOptions = {
+        body: data[lang].body,
+      };
+      return self.registration.showNotification(data[lang].title,
+        notificationOptions);
+    }
+  } catch (error) {
+    console.error(error);
+  }
 });
