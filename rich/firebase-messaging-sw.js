@@ -17,7 +17,6 @@ const messaging = firebase.messaging();
 messaging.setBackgroundMessageHandler((payload) => {
   try {
     const data = JSON.parse(payload.data.data);
-    const lang = navigator.language.substr(0, 2);
     if (lang in data) {
       const notificationOptions = {
         body: data[lang].body,
