@@ -56,6 +56,7 @@ messaging.setBackgroundMessageHandler((payload) => {
     if (lang in data) {
       const notificationOptions = {
         body: getMessageBody(data[lang]),
+        icon: './notification_icon.png'
       };
       return self.registration.showNotification(data[lang].title,
         notificationOptions);
