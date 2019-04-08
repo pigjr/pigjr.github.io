@@ -19,10 +19,14 @@ const translations = {
   en: {
     male: 'Mr.',
     female: 'Ms.',
+    ok: 'Got it.',
+    unwanted: 'Stop bugging me.',
   },
   zh: {
     male: '先生',
     female: '女士',
+    ok: '知道了',
+    unwanted: '别烦我',
   }
 }
 // Retrieve an instance of Firebase Messaging so that it can handle background
@@ -56,12 +60,65 @@ messaging.setBackgroundMessageHandler((payload) => {
     if (lang in data) {
       const notificationOptions = {
         body: getMessageBody(data[lang]),
-        icon: './notification_icon.png'
+        icon: './icon.png',
+        actions: [
+          {
+            action: 'ok-action',
+            title: translations[lang].ok,
+          },
+          {
+            action: 'unwanted-action',
+            title: translations[lang].unwanted,
+          }
+        ]
       };
       return self.registration.showNotification(data[lang].title,
         notificationOptions);
     }
   } catch (error) {
     console.error(error);
+  }
+});
+
+self.addEventListener('notificationclick', function (event) {
+  const clickedNotification = event.notification;
+  clickedNotification.close();
+
+  if (!event.action) {
+    // Was a normal notification click
+    console.log('Notification Click.');
+    return;
+  }
+
+  switch (event.action) {
+    case 'ok-action':
+      console.log('User responses with OK.');
+      break;
+    case 'unwanted-action':
+      const page = '/rich/?step=2';
+      const urlToOpen = new URL(page, self.location.origin).href;
+      const promiseChain = clients.matchAll({
+        type: 'window',
+        includeUncontrolled: true
+      }).then((windowClients) => {
+        let matchingClient = null;
+        for (let i = 0; i < windowClients.length; i++) {
+          const windowClient = windowClients[i];
+          if (windowClient.url === urlToOpen) {
+            matchingClient = windowClient;
+            break;
+          }
+        }
+        if (matchingClient) {
+          return matchingClient.focus();
+        } else {
+          return clients.openWindow(urlToOpen);
+        }
+      });
+      event.waitUntil(promiseChain);
+      break;
+    default:
+      console.log(`Unknown action clicked: '${event.action}'`);
+      break;
   }
 });
