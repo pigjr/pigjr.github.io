@@ -75,19 +75,33 @@ AFRAME.registerComponent('rain-of-entities', {
             default: [
                 {
                     label: 'My Linkedin',
-                    url: 'https://ca.linkedin.com/in/lingkaizhu'
+                    url: 'https://ca.linkedin.com/in/lingkaizhu',
+                    facing: 'front',
                 },
                 {
                     label: 'My Blog',
-                    url: 'https://pigjr.blogspot.com/'
+                    url: 'https://pigjr.blogspot.com/',
+                    facing: 'front',
                 },
                 {
                     label: 'ADnL comics',
-                    url: 'https://goo.gl/photos/MriCgvz92bqioXgo9'
+                    url: 'https://goo.gl/photos/MriCgvz92bqioXgo9',
+                    facing: 'front',
                 },
                 {
-                    label: '(Just a ball)',
-                    url: ''
+                    label: '(Free ball)',
+                    url: '',
+                    facing: 'front',
+                },
+                {
+                    label: 'Feeling Rich',
+                    url: '/rich',
+                    facing: 'back',
+                },
+                {
+                    label: '(Free ball)',
+                    url: '',
+                    facing: 'back',
                 },
             ]
         },
@@ -113,7 +127,7 @@ AFRAME.registerComponent('rain-of-entities', {
         for (let i = 0; i < D.descriptions.length; i++) {
             const B = document.createElement(D.tagName);
 
-            B.setAttribute('position', this.getPosition(i));
+            B.setAttribute('position', this.getPosition(i, 'ball'));
             B.setAttribute(
                 'grabbable',
                 'index: ' +
@@ -133,10 +147,11 @@ AFRAME.registerComponent('rain-of-entities', {
 
             const T = document.createElement('a-text');
             T.setAttribute('position', this.getPosition(i, 'text'));
+            T.setAttribute('rotation', `0 ${D.descriptions[i].facing === 'front' ? 0 : 180} 0`);
             T.setAttribute('wrap-count', 80);
             T.setAttribute(
                 'text',
-                'color: white; align: center; width: 50; value: ' +
+                'side: double; color: white; align: center; width: 50; value: ' +
                 D.descriptions[i].label
             );
             this.labels.push(T);
@@ -155,17 +170,14 @@ AFRAME.registerComponent('rain-of-entities', {
         }
     },
     getPosition(i, type) {
-        return type === 'text'
-            ? {
-                x: ((1 - this.data.descriptions.length) / 2 + i) * 8,
-                y: 5,
-                z: -10
-            }
-            : {
-                x: ((1 - this.data.descriptions.length) / 2 + i) * 8,
-                y: 1.5,
-                z: -10
-            };
+        const ball = this.data.descriptions[i];
+        const balls = this.data.descriptions.filter(el => el.facing === ball.facing);
+
+        return {
+            x: ((1 - balls.length) / 2 + balls.indexOf(ball)) * 8,
+            y: type === 'text' ? 5 : 1.5,
+            z: ball.facing === 'front' ? -15 : 15,
+        };
     }
 });
 
@@ -189,7 +201,9 @@ AFRAME.registerComponent('grabbable', {
             util.saveObject(this.el);
             const el = this.el;
             this.sourceEl = this.el.sceneEl.querySelector('#camera');
+            const isFront = el.body.position.z < 0;
             el.body.position.copy(this.sourceEl.getAttribute('position'));
+            el.body.position.z += isFront ? -5 : 5;
             el.body.velocity.setZero();
             el.body.angularVelocity.setZero();
         }
@@ -206,6 +220,7 @@ AFRAME.registerComponent('aimable', {
         this.el.addEventListener('click', this.aimThisAndThrow.bind(this));
     },
     aimThisAndThrow() {
+        const basketGroup = this.el.parentEl.id === 'basketGroup2' ? '2' : '';
         const util = document.querySelector('a-scene').systems.utility;
         const ACC = this.data.accuracy;
         const ball = util.loadObject();
@@ -215,11 +230,12 @@ AFRAME.registerComponent('aimable', {
             ball.body.velocity.setZero();
             ball.body.angularVelocity.setZero();
 
-            const basket = this.el.sceneEl.querySelector('#basket');
+            const basket = this.el.sceneEl.querySelector('#basket' + basketGroup);
             this.sourceEl = this.el.sceneEl.querySelector('#camera');
 
             // Hold
             ball.body.position.copy(this.sourceEl.getAttribute('position'));
+            ball.body.position.z += basketGroup === '2' ? 5 : -5;
             ball.body.velocity.setZero();
             ball.body.angularVelocity.setZero();
 
@@ -252,14 +268,16 @@ AFRAME.registerComponent('aimable', {
                 );
             }, 300);
 
-            setTimeout(() => {
-                document.querySelector('#camera').setAttribute('active', false);
-                document.querySelector('#camera-2').setAttribute('active', true);
-            }, 1000);
+            // setTimeout(() => {
+            //     document.querySelector('#camera').setAttribute('active', false);
+            //     document.querySelector('#camera-2').setAttribute('active', true);
+            // }, 1000);
 
             // In/out detection
             const posBefore = new CANNON.Vec3();
             const posAfter = new CANNON.Vec3();
+            const zMax = basketGroup === '2' ? 27 : -23;
+            const zMin = basketGroup === '2' ? 23 : -27;
             const intervalId = setInterval(() => {
                 posBefore.copy(posAfter);
                 posAfter.copy(ball.body.position);
@@ -271,19 +289,19 @@ AFRAME.registerComponent('aimable', {
                 ) {
                     const avgX = (posBefore.x + posAfter.x) / 2;
                     const avgZ = (posBefore.z + posAfter.z) / 2;
-                    if (avgX >= -2 && avgX <= 2 && avgZ >= -22 && avgZ < -18) {
+                    if (avgX >= -2 && avgX <= 2 && avgZ >= zMin && avgZ < zMax) {
                         console.log('in');
                         document.querySelectorAll('.point-light').forEach(el => {
                             el.setAttribute('color', 'gold');
                         });
-                        setTimeout(() => {
-                            document
-                                .querySelector('#camera')
-                                .setAttribute('active', true);
-                            document
-                                .querySelector('#camera-2')
-                                .setAttribute('active', false);
-                        }, 500);
+                        // setTimeout(() => {
+                        //     document
+                        //         .querySelector('#camera')
+                        //         .setAttribute('active', true);
+                        //     document
+                        //         .querySelector('#camera-2')
+                        //         .setAttribute('active', false);
+                        // }, 500);
 
                         setTimeout(() => {
                             util.showObject('#banner-success');
@@ -295,19 +313,20 @@ AFRAME.registerComponent('aimable', {
                                     'label: ' +
                                     ball.components.grabbable.data.label +
                                     '; url: ' +
-                                    ball.components.grabbable.data.url
+                                    ball.components.grabbable.data.url + 
+                                    '; group: ' + basketGroup
                                 );
                         }, 1500);
                         clearInterval(intervalId);
                     } else {
-                        setTimeout(() => {
-                            document
-                                .querySelector('#camera')
-                                .setAttribute('active', true);
-                            document
-                                .querySelector('#camera-2')
-                                .setAttribute('active', false);
-                        }, 500);
+                        // setTimeout(() => {
+                        //     document
+                        //         .querySelector('#camera')
+                        //         .setAttribute('active', true);
+                        //     document
+                        //         .querySelector('#camera-2')
+                        //         .setAttribute('active', false);
+                        // }, 500);
 
                         console.log('out');
                         clearInterval(intervalId);
@@ -315,12 +334,12 @@ AFRAME.registerComponent('aimable', {
                 }
             }, 50);
             setTimeout(() => {
-                document
-                    .querySelector('#camera')
-                    .setAttribute('active', true);
-                document
-                    .querySelector('#camera-2')
-                    .setAttribute('active', false);
+                // document
+                //     .querySelector('#camera')
+                //     .setAttribute('active', true);
+                // document
+                //     .querySelector('#camera-2')
+                //     .setAttribute('active', false);
                 clearInterval(intervalId);
             }, 5000);
 
@@ -333,7 +352,8 @@ AFRAME.registerComponent('aimable', {
 AFRAME.registerComponent('navigate', {
     schema: {
         label: { default: '' },
-        url: { default: '' }
+        url: { default: '' },
+        group: { default: '' }
     },
     init() {
         this.util = document.querySelector('a-scene').systems.utility;
@@ -346,7 +366,8 @@ AFRAME.registerComponent('navigate', {
         T.setAttribute('color', 'white');
         T.setAttribute('align', 'center');
         T.setAttribute('width', 50);
-        T.setAttribute('position', '0 0 -8');
+        T.setAttribute('position', `0 0 ${this.data.group === '2' ? 8 : -8}`);
+        T.setAttribute('rotation', `0 ${this.data.group === '2' ? 180 : 0} 0`);
         T.setAttribute(
             'value',
             this.data.url ? `Congratulations! Visit ${this.data.label} ?` : 'Congratulations!'
@@ -361,13 +382,14 @@ AFRAME.registerComponent('navigate', {
         const btn = document.createElement('a-icosahedron');
         btn.setAttribute('color', '#FFF26B');
         btn.setAttribute('radius', '1.5');
-        btn.setAttribute('position', '-3 -4 -8');
+        btn.setAttribute('position', `-3 -4 ${this.data.group === '2' ? 18 : -8}`);
         const T = document.createElement('a-text');
         T.setAttribute('color', 'white');
         T.setAttribute('align', 'right');
         T.setAttribute('width', 30);
         T.setAttribute('value', 'Take me there');
-        T.setAttribute('position', '-5 -4 -8');
+        T.setAttribute('position', `-5 -4 ${this.data.group === '2' ? 18 : -8}`);
+        T.setAttribute('rotation', `0 ${this.data.group === '2' ? 180 : 0} 0`);
         btn.addEventListener('click', this.clickLeftButton.bind(this));
         T.addEventListener('click', this.clickLeftButton.bind(this));
         this.el.appendChild(btn);
@@ -381,14 +403,15 @@ AFRAME.registerComponent('navigate', {
 
         btn.setAttribute('color', '#FF226B');
         btn.setAttribute('radius', '1.5');
-        btn.setAttribute('position', '3 -4 -8');
+        btn.setAttribute('position', `3 -4 ${this.data.group === '2' ? 18 : -8}`);
 
         const T = document.createElement('a-text');
         T.setAttribute('color', 'white');
         T.setAttribute('align', 'left');
         T.setAttribute('width', 30);
         T.setAttribute('value', 'Return to shoot more');
-        T.setAttribute('position', '5 -4 -8');
+        T.setAttribute('position', `5 -4 ${this.data.group === '2' ? 18 : -8}`);
+        T.setAttribute('rotation', `0 ${this.data.group === '2' ? 180 : 0} 0`);
         btn.addEventListener('click', this.clickRightButton.bind(this));
         T.addEventListener('click', this.clickRightButton.bind(this));
         this.el.appendChild(btn);
