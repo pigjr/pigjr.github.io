@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1554758180403,
+  "timestamp": 1554779160992,
   "index": "/home/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
         "/home/main.5d0caf661a45b040576b.js",
         "/home/polyfills.a9c6c782de0934a4d64c.js",
         "/home/runtime.26209474bfa8dc87a77c.js",
-        "/home/scripts.52fdce11dd15e5d0e5f1.js",
+        "/home/scripts.0f221bbe3e5294571f84.js",
         "/home/styles.049bc107d1821a0e9c6c.css"
       ],
       "patterns": []
@@ -54,13 +54,13 @@
     "/home/assets/img/board.jpg": "901af5dcfeaff795c1f4dd3bf5635f21bcb5d378",
     "/home/assets/img/floor.jpg": "b37e32ead04fe20c1a4ce6576f838daaa89bf833",
     "/home/assets/img/sky.jpg": "b9aebc56e53fd6629c1b644a39c64d7c31eeab48",
-    "/home/assets/main.js": "04262991b7c028f287074a4522260d23c352b979",
+    "/home/assets/main.js": "43a80a75313476015948ee34bce5cc0a06f7f523",
     "/home/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/home/index.html": "51af82c7d2976c1670dcb3eace0f9fb35753a353",
+    "/home/index.html": "5226bd6a03bc6415aa58dfa427615ca308696e50",
     "/home/main.5d0caf661a45b040576b.js": "86bcb18f7030af5253c9cdbeb39cb3a39bc0b6a5",
     "/home/polyfills.a9c6c782de0934a4d64c.js": "7e1c196efa3935776d5e0862a03ccb69f484a6ef",
     "/home/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/home/scripts.52fdce11dd15e5d0e5f1.js": "2c033682d8e11bee4745275468df2bd79a7727c6",
+    "/home/scripts.0f221bbe3e5294571f84.js": "494803895324c65a395780e2ccb9630f3625ae7f",
     "/home/styles.049bc107d1821a0e9c6c.css": "303aabac2c6dfde849fbdd836a8078fce276cbe5"
   },
   "navigationUrls": [
