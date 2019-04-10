@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1554823504138,
+  "timestamp": 1554866365935,
   "index": "/rich/index.html",
   "assetGroups": [
     {
@@ -12,7 +12,7 @@
         "/rich/favicon.ico",
         "/rich/firebase-messaging-sw.js",
         "/rich/index.html",
-        "/rich/main.465c4baf5c9953a350c2.js",
+        "/rich/main.c635327b2dfdd814c8d6.js",
         "/rich/polyfills.5ef318d2cc9ff1bb01ce.js",
         "/rich/runtime.c930a090a159ea6c4b8d.js",
         "/rich/styles.049bc107d1821a0e9c6c.css"
@@ -51,8 +51,8 @@
     "/rich/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
     "/rich/firebase-messaging-sw.js": "7df1d6f611eba289d2feca6581f10ed4ff3860d4",
     "/rich/icon.png": "2c4cb0947aacec8ac494d8c4c2bcbcf9e3fbcaca",
-    "/rich/index.html": "0a3cf06e0fc08134e66df246fe3ea0177df50fa0",
-    "/rich/main.465c4baf5c9953a350c2.js": "8c0c93a3a83b34a0179f93e65bffdda2f827b0fb",
+    "/rich/index.html": "2737bfc1de29f37953341345c3061579cb21f9f0",
+    "/rich/main.c635327b2dfdd814c8d6.js": "e89b14f6055f1ef703684c26e9d7b6482b6f25c2",
     "/rich/polyfills.5ef318d2cc9ff1bb01ce.js": "5b14d88aabd17ec6fa713740d074cd13b37d81a8",
     "/rich/runtime.c930a090a159ea6c4b8d.js": "79c1cd849f2fcf0458522c57f31d6a5e9017c327",
     "/rich/styles.049bc107d1821a0e9c6c.css": "303aabac2c6dfde849fbdd836a8078fce276cbe5"
