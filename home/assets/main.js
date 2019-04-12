@@ -99,8 +99,8 @@ AFRAME.registerComponent('rain-of-entities', {
           facing: 'back',
         },
         {
-          label: 'When will trends disappear?',
-          url: '/weibull',
+          label: 'Obsolete',
+          url: '/obsolete',
           facing: 'back',
         },
         {
