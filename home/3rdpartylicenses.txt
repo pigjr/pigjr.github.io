@@ -89,9 +89,13 @@ THE SOFTWARE.
 
 @angular/material/card
 
+@angular/material/chips
+
 @angular/material/core
 
 @angular/material/dialog
+
+@angular/material/expansion
 
 @angular/material/icon
 
