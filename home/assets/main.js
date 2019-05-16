@@ -109,6 +109,11 @@ AFRAME.registerComponent('rain-of-entities', {
           facing: 'back',
         },
         {
+          label: 'Chestnut',
+          url: '/chestnut',
+          facing: 'back',
+        },
+        {
           label: '(Free ball)',
           url: '',
           facing: 'back',
