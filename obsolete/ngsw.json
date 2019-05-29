@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1558240639979,
+  "timestamp": 1559162603754,
   "index": "/obsolete/index.html",
   "assetGroups": [
     {
@@ -10,10 +10,11 @@
       "urls": [
         "/obsolete/favicon.ico",
         "/obsolete/index.html",
-        "/obsolete/main.0e31642a31abdcb17159.js",
-        "/obsolete/polyfills.92ae79571047cb465fd1.js",
-        "/obsolete/runtime.26209474bfa8dc87a77c.js",
-        "/obsolete/styles.521b74ccc660289ed746.css"
+        "/obsolete/main.afbda707587ed4d40cde.js",
+        "/obsolete/polyfills-es5.b477494726ff716411f9.js",
+        "/obsolete/polyfills.297843c67d8ebd1d613d.js",
+        "/obsolete/runtime.741402d1d47331ce975c.js",
+        "/obsolete/styles.bfe46fc222d8ab79bf54.css"
       ],
       "patterns": []
     },
@@ -45,11 +46,12 @@
     "/obsolete/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/obsolete/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/obsolete/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/obsolete/index.html": "ad76beb9f8a8d1e3258eed0c2775143acf141313",
-    "/obsolete/main.0e31642a31abdcb17159.js": "710c0c9dd5c38baad66a3842efae869385f28b44",
-    "/obsolete/polyfills.92ae79571047cb465fd1.js": "4cd632e27de7d02621894c079ddb43950c6148b6",
-    "/obsolete/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/obsolete/styles.521b74ccc660289ed746.css": "3be1d10e94e3fa4a851ac76e71d40db24cd85f1b"
+    "/obsolete/index.html": "fe2fef0f2999fc14cfd66eae225e9a0bebba81e0",
+    "/obsolete/main.afbda707587ed4d40cde.js": "8b2ab5ce3cee47772ae2080cee6d400cf4c04fe2",
+    "/obsolete/polyfills-es5.b477494726ff716411f9.js": "daa67f2e62eb15a76091c2431fecdb325b07e3f6",
+    "/obsolete/polyfills.297843c67d8ebd1d613d.js": "a7bf240e4007aa8bb4b5d9e3b3d3aa456de28206",
+    "/obsolete/runtime.741402d1d47331ce975c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/obsolete/styles.bfe46fc222d8ab79bf54.css": "b9fe9c1a2eebb2fffcf951c6bb563d00b4baee62"
   },
   "navigationUrls": [
     {
