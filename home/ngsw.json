@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1559162485300,
+  "timestamp": 1560181108880,
   "index": "/home/index.html",
   "assetGroups": [
     {
@@ -10,7 +10,7 @@
       "urls": [
         "/home/favicon.ico",
         "/home/index.html",
-        "/home/main.e0800c0d40729dbbf0a2.js",
+        "/home/main.31974705279b26b6306a.js",
         "/home/polyfills-es5.713635137766a4d7e797.js",
         "/home/polyfills.6a0ffe70b21cd6b12e62.js",
         "/home/runtime.741402d1d47331ce975c.js",
@@ -57,8 +57,8 @@
     "/home/assets/img/sky.jpg": "b9aebc56e53fd6629c1b644a39c64d7c31eeab48",
     "/home/assets/main.js": "40fdec5e30704388591f1ddcdf9c40b23fe057dd",
     "/home/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/home/index.html": "8e0687ad78d9ae6fc4ca89accb5cd0cb461f08c0",
-    "/home/main.e0800c0d40729dbbf0a2.js": "928af678099c9c1f93de7f3cf2d92e15ad5110aa",
+    "/home/index.html": "32dcd129f83e2e3fbed3707d387ee90f22b3108a",
+    "/home/main.31974705279b26b6306a.js": "d271c0464352e39e71bcf4ab440a2a14e03583fc",
     "/home/polyfills-es5.713635137766a4d7e797.js": "4f73106479b3b48be7edb2ed6676bfae706f79bc",
     "/home/polyfills.6a0ffe70b21cd6b12e62.js": "c7295f6720b1ab0cedff79e36528748fb88ca720",
     "/home/runtime.741402d1d47331ce975c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
