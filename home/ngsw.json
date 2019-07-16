@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1563306995853,
+  "timestamp": 1563307701406,
   "index": "/home/index.html",
   "assetGroups": [
     {
@@ -10,14 +10,12 @@
       "urls": [
         "/home/favicon.ico",
         "/home/index.html",
-        "/home/main-es2015.dd65e421698ce6c0bb17.js",
-        "/home/main-es5.e8e338c8a54de5291f78.js",
-        "/home/polyfills-es2015.7a6d47313aa4a9e630dd.js",
-        "/home/polyfills-es5.854d8999779aa545d873.js",
-        "/home/runtime-es2015.703a23e48ad83c851e49.js",
-        "/home/runtime-es5.465c2333d355155ec5f3.js",
+        "/home/main.31974705279b26b6306a.js",
+        "/home/polyfills-es5.713635137766a4d7e797.js",
+        "/home/polyfills.6a0ffe70b21cd6b12e62.js",
+        "/home/runtime.741402d1d47331ce975c.js",
         "/home/scripts.dd528c41250b9be5292e.js",
-        "/home/styles.07734f9550241f5971a1.css"
+        "/home/styles.c6c0352568e611a20a0d.css"
       ],
       "patterns": []
     },
@@ -59,15 +57,13 @@
     "/home/assets/img/sky.jpg": "b9aebc56e53fd6629c1b644a39c64d7c31eeab48",
     "/home/assets/main.js": "40fdec5e30704388591f1ddcdf9c40b23fe057dd",
     "/home/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/home/index.html": "df719751ea10a4fd750f4239b4b6d1ec247b10c9",
-    "/home/main-es2015.dd65e421698ce6c0bb17.js": "180e935e848be73cc40253bc91050f38c266a353",
-    "/home/main-es5.e8e338c8a54de5291f78.js": "f740b26bd7818f4ed9ea8382d493e4aa93c828cd",
-    "/home/polyfills-es2015.7a6d47313aa4a9e630dd.js": "240b878bb317874e5f83ddfd82619b9b4076bb60",
-    "/home/polyfills-es5.854d8999779aa545d873.js": "63e0e93bbf5a24c9911edd799bc1987a2c16bd39",
-    "/home/runtime-es2015.703a23e48ad83c851e49.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/home/runtime-es5.465c2333d355155ec5f3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/home/index.html": "32dcd129f83e2e3fbed3707d387ee90f22b3108a",
+    "/home/main.31974705279b26b6306a.js": "d271c0464352e39e71bcf4ab440a2a14e03583fc",
+    "/home/polyfills-es5.713635137766a4d7e797.js": "4f73106479b3b48be7edb2ed6676bfae706f79bc",
+    "/home/polyfills.6a0ffe70b21cd6b12e62.js": "c7295f6720b1ab0cedff79e36528748fb88ca720",
+    "/home/runtime.741402d1d47331ce975c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/home/scripts.dd528c41250b9be5292e.js": "971129b6303093b39a6392a5431dda0fa4e4658f",
-    "/home/styles.07734f9550241f5971a1.css": "c516e03b1fddf07eaea26c7182ca21ac953e2037"
+    "/home/styles.c6c0352568e611a20a0d.css": "a80ed5dc0d088ece7e5cf576d2ee92df19ad28da"
   },
   "navigationUrls": [
     {

@@ -61,8 +61,10 @@ MIT
 MIT
 
 @angular/fire/auth
+MIT
 
 @angular/fire/firestore
+MIT
 
 @angular/flex-layout
 MIT

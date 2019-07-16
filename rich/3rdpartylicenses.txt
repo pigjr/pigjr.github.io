@@ -61,6 +61,7 @@ MIT
 MIT
 
 @angular/fire/messaging
+MIT
 
 @angular/flex-layout
 MIT

@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1563307209721,
+  "timestamp": 1563307825531,
   "index": "/obsolete/index.html",
   "assetGroups": [
     {
@@ -10,13 +10,11 @@
       "urls": [
         "/obsolete/favicon.ico",
         "/obsolete/index.html",
-        "/obsolete/main-es2015.5d0200d7b8faf76f815b.js",
-        "/obsolete/main-es5.dcad971c341b041e4566.js",
-        "/obsolete/polyfills-es2015.673617ce939bf53f58e8.js",
-        "/obsolete/polyfills-es5.ccf1ed9b206a76371a0d.js",
-        "/obsolete/runtime-es2015.703a23e48ad83c851e49.js",
-        "/obsolete/runtime-es5.465c2333d355155ec5f3.js",
-        "/obsolete/styles.840744f235369e58b0cb.css"
+        "/obsolete/main.1187ae10026d57c551ed.js",
+        "/obsolete/polyfills-es5.b477494726ff716411f9.js",
+        "/obsolete/polyfills.297843c67d8ebd1d613d.js",
+        "/obsolete/runtime.741402d1d47331ce975c.js",
+        "/obsolete/styles.bfe46fc222d8ab79bf54.css"
       ],
       "patterns": []
     },
@@ -48,14 +46,12 @@
     "/obsolete/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/obsolete/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/obsolete/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/obsolete/index.html": "a1c4b8a275495b11b72b3acd011b99294a2e86ab",
-    "/obsolete/main-es2015.5d0200d7b8faf76f815b.js": "19853d5857117cd2a7d224108ba81f1096383579",
-    "/obsolete/main-es5.dcad971c341b041e4566.js": "e6a32020bf9bac6f722bc402c32292c3d79dcd4b",
-    "/obsolete/polyfills-es2015.673617ce939bf53f58e8.js": "908b0642ff4fc62bc90db92c66cc2365829c2ab6",
-    "/obsolete/polyfills-es5.ccf1ed9b206a76371a0d.js": "382738e09c042d60978dda90f67efd791890a016",
-    "/obsolete/runtime-es2015.703a23e48ad83c851e49.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/obsolete/runtime-es5.465c2333d355155ec5f3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/obsolete/styles.840744f235369e58b0cb.css": "adc61771057167f56a0a6104242f840f4e1ca8dc"
+    "/obsolete/index.html": "0225170e397dbd6881dda5d0f274c6e236db927b",
+    "/obsolete/main.1187ae10026d57c551ed.js": "80d582807422aff3b9750efec7a170c4db4d5cf9",
+    "/obsolete/polyfills-es5.b477494726ff716411f9.js": "daa67f2e62eb15a76091c2431fecdb325b07e3f6",
+    "/obsolete/polyfills.297843c67d8ebd1d613d.js": "a7bf240e4007aa8bb4b5d9e3b3d3aa456de28206",
+    "/obsolete/runtime.741402d1d47331ce975c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/obsolete/styles.bfe46fc222d8ab79bf54.css": "b9fe9c1a2eebb2fffcf951c6bb563d00b4baee62"
   },
   "navigationUrls": [
     {
