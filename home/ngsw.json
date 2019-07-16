@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1562959466147,
+  "timestamp": 1563291770926,
   "index": "/home/index.html",
   "assetGroups": [
     {
@@ -10,12 +10,14 @@
       "urls": [
         "/home/favicon.ico",
         "/home/index.html",
-        "/home/main.31974705279b26b6306a.js",
-        "/home/polyfills-es5.713635137766a4d7e797.js",
-        "/home/polyfills.6a0ffe70b21cd6b12e62.js",
-        "/home/runtime.741402d1d47331ce975c.js",
+        "/home/main-es2015.7868fa575ae695b069db.js",
+        "/home/main-es5.97bedfd24f0cb2378dd1.js",
+        "/home/polyfills-es2015.d09eee92b78e58ef23fb.js",
+        "/home/polyfills-es5.ff82d7583f563b3240fe.js",
+        "/home/runtime-es2015.858f8dd898b75fe86926.js",
+        "/home/runtime-es5.741402d1d47331ce975c.js",
         "/home/scripts.dd528c41250b9be5292e.js",
-        "/home/styles.c6c0352568e611a20a0d.css"
+        "/home/styles.af9b916c610160dead87.css"
       ],
       "patterns": []
     },
@@ -57,13 +59,15 @@
     "/home/assets/img/sky.jpg": "b9aebc56e53fd6629c1b644a39c64d7c31eeab48",
     "/home/assets/main.js": "40fdec5e30704388591f1ddcdf9c40b23fe057dd",
     "/home/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/home/index.html": "32dcd129f83e2e3fbed3707d387ee90f22b3108a",
-    "/home/main.31974705279b26b6306a.js": "d271c0464352e39e71bcf4ab440a2a14e03583fc",
-    "/home/polyfills-es5.713635137766a4d7e797.js": "4f73106479b3b48be7edb2ed6676bfae706f79bc",
-    "/home/polyfills.6a0ffe70b21cd6b12e62.js": "c7295f6720b1ab0cedff79e36528748fb88ca720",
-    "/home/runtime.741402d1d47331ce975c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/home/index.html": "4836a241ce3c6939082db3f144436dbb0406577a",
+    "/home/main-es2015.7868fa575ae695b069db.js": "c1cfdcce6ded2ecae95fa9f9558d84950248452a",
+    "/home/main-es5.97bedfd24f0cb2378dd1.js": "080560deaecb2048551d61b49ca86ac6b5bf174a",
+    "/home/polyfills-es2015.d09eee92b78e58ef23fb.js": "e5b1be15018edac0320186620dcda8b3cb92de35",
+    "/home/polyfills-es5.ff82d7583f563b3240fe.js": "ac515b7ac87c8c224639795db2057115befe19c2",
+    "/home/runtime-es2015.858f8dd898b75fe86926.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/home/runtime-es5.741402d1d47331ce975c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/home/scripts.dd528c41250b9be5292e.js": "971129b6303093b39a6392a5431dda0fa4e4658f",
-    "/home/styles.c6c0352568e611a20a0d.css": "a80ed5dc0d088ece7e5cf576d2ee92df19ad28da"
+    "/home/styles.af9b916c610160dead87.css": "f68f7d24a052425a6eea6f3b15331ef4bc18671e"
   },
   "navigationUrls": [
     {

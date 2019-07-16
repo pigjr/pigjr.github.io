@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1562959579231,
+  "timestamp": 1563291975363,
   "index": "/obsolete/index.html",
   "assetGroups": [
     {
@@ -10,11 +10,13 @@
       "urls": [
         "/obsolete/favicon.ico",
         "/obsolete/index.html",
-        "/obsolete/main.1187ae10026d57c551ed.js",
-        "/obsolete/polyfills-es5.b477494726ff716411f9.js",
-        "/obsolete/polyfills.297843c67d8ebd1d613d.js",
-        "/obsolete/runtime.741402d1d47331ce975c.js",
-        "/obsolete/styles.bfe46fc222d8ab79bf54.css"
+        "/obsolete/main-es2015.212dae2d2a0535a7699b.js",
+        "/obsolete/main-es5.372d19212983a1baade4.js",
+        "/obsolete/polyfills-es2015.cc2501dcc664b2456185.js",
+        "/obsolete/polyfills-es5.a80808bff1d4613367d3.js",
+        "/obsolete/runtime-es2015.858f8dd898b75fe86926.js",
+        "/obsolete/runtime-es5.741402d1d47331ce975c.js",
+        "/obsolete/styles.43c1711ccc2361e2c1e5.css"
       ],
       "patterns": []
     },
@@ -46,12 +48,14 @@
     "/obsolete/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/obsolete/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/obsolete/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/obsolete/index.html": "0225170e397dbd6881dda5d0f274c6e236db927b",
-    "/obsolete/main.1187ae10026d57c551ed.js": "80d582807422aff3b9750efec7a170c4db4d5cf9",
-    "/obsolete/polyfills-es5.b477494726ff716411f9.js": "daa67f2e62eb15a76091c2431fecdb325b07e3f6",
-    "/obsolete/polyfills.297843c67d8ebd1d613d.js": "a7bf240e4007aa8bb4b5d9e3b3d3aa456de28206",
-    "/obsolete/runtime.741402d1d47331ce975c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/obsolete/styles.bfe46fc222d8ab79bf54.css": "b9fe9c1a2eebb2fffcf951c6bb563d00b4baee62"
+    "/obsolete/index.html": "3d2a8171949b5030aee37504d8485f1aa373fcc5",
+    "/obsolete/main-es2015.212dae2d2a0535a7699b.js": "0a045ecb6bb195a0b6efc046ebd1c6b3aedc5ebb",
+    "/obsolete/main-es5.372d19212983a1baade4.js": "5d241d687873717133ad32798733f03c39f89232",
+    "/obsolete/polyfills-es2015.cc2501dcc664b2456185.js": "ba535e60109988b3e6833a788bfd6fe11fca50b2",
+    "/obsolete/polyfills-es5.a80808bff1d4613367d3.js": "6961f207f28880ddc93f3bd8881a7a3c17e140fb",
+    "/obsolete/runtime-es2015.858f8dd898b75fe86926.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/obsolete/runtime-es5.741402d1d47331ce975c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/obsolete/styles.43c1711ccc2361e2c1e5.css": "c64d02b8f519d57f874e9c54e245b6739b308145"
   },
   "navigationUrls": [
     {

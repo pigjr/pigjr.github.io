@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1562959507887,
+  "timestamp": 1563291846259,
   "index": "/rich/index.html",
   "assetGroups": [
     {
@@ -8,15 +8,18 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/rich/5.b5b112dbf464b425c750.js",
+        "/rich/4-es2015.4f2089c774ec9a69b518.js",
+        "/rich/4-es5.f364ed9ffb19a72984ec.js",
         "/rich/favicon.ico",
         "/rich/firebase-messaging-sw.js",
         "/rich/index.html",
-        "/rich/main.924fb04f54388885b72e.js",
-        "/rich/polyfills-es5.713635137766a4d7e797.js",
-        "/rich/polyfills.50e07e0384692034b765.js",
-        "/rich/runtime.34e0d6daa8fc2f547b11.js",
-        "/rich/styles.c6c0352568e611a20a0d.css"
+        "/rich/main-es2015.263cf5029956adefd924.js",
+        "/rich/main-es5.06e109aa419207a682a6.js",
+        "/rich/polyfills-es2015.87bf2af40be8513232c7.js",
+        "/rich/polyfills-es5.706ebf6e8e01eb0fb286.js",
+        "/rich/runtime-es2015.aeb39ec3bdd337ae2070.js",
+        "/rich/runtime-es5.3e91729c1dbfe50b5392.js",
+        "/rich/styles.af9b916c610160dead87.css"
       ],
       "patterns": []
     },
@@ -40,7 +43,8 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/rich/5.b5b112dbf464b425c750.js": "a35456f598b963ad95fc72d5943b1515ca2a6586",
+    "/rich/4-es2015.4f2089c774ec9a69b518.js": "dcda7bb6d05452a3f75392d5a3f7bbb7ba3ef097",
+    "/rich/4-es5.f364ed9ffb19a72984ec.js": "dcda7bb6d05452a3f75392d5a3f7bbb7ba3ef097",
     "/rich/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/rich/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/rich/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -52,12 +56,14 @@
     "/rich/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
     "/rich/firebase-messaging-sw.js": "7df1d6f611eba289d2feca6581f10ed4ff3860d4",
     "/rich/icon.png": "2c4cb0947aacec8ac494d8c4c2bcbcf9e3fbcaca",
-    "/rich/index.html": "cca442a0df0181a2f263229c735ad2ef2e332845",
-    "/rich/main.924fb04f54388885b72e.js": "491210693642f402be3dbdf2c0189df901c8b4d3",
-    "/rich/polyfills-es5.713635137766a4d7e797.js": "4f73106479b3b48be7edb2ed6676bfae706f79bc",
-    "/rich/polyfills.50e07e0384692034b765.js": "11ec8845663b865cf6b1cd59837fe2de38175c62",
-    "/rich/runtime.34e0d6daa8fc2f547b11.js": "c6fd55428ad64a8483c11b2a0df7e5eb9a086906",
-    "/rich/styles.c6c0352568e611a20a0d.css": "a80ed5dc0d088ece7e5cf576d2ee92df19ad28da"
+    "/rich/index.html": "bf3b3151d479d86d0d2572c6eeaec5f15bd7c28f",
+    "/rich/main-es2015.263cf5029956adefd924.js": "dd989cb1cafa631edcc582c46623dcee4a91674f",
+    "/rich/main-es5.06e109aa419207a682a6.js": "72ffec72faa46882b3015d664e2ab47b8ac9e688",
+    "/rich/polyfills-es2015.87bf2af40be8513232c7.js": "5e2a32caec60f45260dc52996f3e4c40526272c1",
+    "/rich/polyfills-es5.706ebf6e8e01eb0fb286.js": "3468dabf47dcd1e081f5ad529324db4ea4692952",
+    "/rich/runtime-es2015.aeb39ec3bdd337ae2070.js": "8473806fceb2a35c1bf7d98ef427f27a73042fa8",
+    "/rich/runtime-es5.3e91729c1dbfe50b5392.js": "92aebaa650f8d78af62a3d141c803f350698e5de",
+    "/rich/styles.af9b916c610160dead87.css": "f68f7d24a052425a6eea6f3b15331ef4bc18671e"
   },
   "navigationUrls": [
     {
