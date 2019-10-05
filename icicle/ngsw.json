@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1570244315771,
+  "timestamp": 1570247853800,
   "index": "/icicle/index.html",
   "assetGroups": [
     {
@@ -16,7 +16,7 @@
         "/icicle/polyfills-es5.2d656bab170045131530.js",
         "/icicle/runtime-es2015.703a23e48ad83c851e49.js",
         "/icicle/runtime-es5.465c2333d355155ec5f3.js",
-        "/icicle/styles.f2b339ffd9d0b32578b9.css"
+        "/icicle/styles.6bbc93dc21df4f8ba76d.css"
       ],
       "patterns": []
     },
@@ -48,14 +48,14 @@
     "/icicle/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/icicle/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/icicle/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/icicle/index.html": "c8355b7816f1b4a50b64d9c148cec38a0f864a07",
+    "/icicle/index.html": "e53b64f4463cd0c328580c8dd45909f4f8c52588",
     "/icicle/main-es2015.b37c88c5efe9c310070a.js": "ce6c3fc1e1a46a383a9bfee5cf61dedd609415cd",
     "/icicle/main-es5.b5156d38753dde88ad6a.js": "0da4aa2a52faaf1a60393db8f7f3c3ec19e4c082",
     "/icicle/polyfills-es2015.4d2c2b4e802bf4d29437.js": "1e1ac32f769345aa209540c7b9e554aaed964504",
     "/icicle/polyfills-es5.2d656bab170045131530.js": "666de8b50f7a6451eb64401ff43469a8f7a0a27c",
     "/icicle/runtime-es2015.703a23e48ad83c851e49.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/icicle/runtime-es5.465c2333d355155ec5f3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/icicle/styles.f2b339ffd9d0b32578b9.css": "f3e48270378bd04815cecfad46c843491edfdc43"
+    "/icicle/styles.6bbc93dc21df4f8ba76d.css": "20ab0f5b7541ad55b652c0160c752d671a139dab"
   },
   "navigationUrls": [
     {
