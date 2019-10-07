@@ -1,10 +1,11 @@
 {
   "name": "salt",
   "short_name": "salt",
-  "theme_color": "#1976d2",
-  "background_color": "#fafafa",
+  "theme_color": "#536dfe",
+  "background_color": "#303030",
   "display": "standalone",
-  "scope": "/salt/",
+  "orientation": "portrait",
+  "Scope": "/salt/",
   "start_url": "/salt/",
   "icons": [
     {
@@ -47,5 +48,6 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  ],
+  "splash_pages": null
 }
