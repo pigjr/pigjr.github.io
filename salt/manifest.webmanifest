@@ -4,7 +4,6 @@
   "theme_color": "#536dfe",
   "background_color": "#303030",
   "display": "standalone",
-  "orientation": "portrait",
   "Scope": "/salt/",
   "start_url": "/salt/",
   "icons": [
@@ -48,6 +47,5 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ],
-  "splash_pages": null
+  ]
 }
