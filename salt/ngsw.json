@@ -1,22 +1,22 @@
 {
   "configVersion": 1,
-  "timestamp": 1570754443462,
-  "index": "/index.html",
+  "timestamp": 1570757566461,
+  "index": "/salt/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/favicon.ico",
-        "/index.html",
-        "/main-es2015.1d050877528be59bbc76.js",
-        "/main-es5.b7d4d628e0b7377fbc9c.js",
-        "/polyfills-es2015.4d2c2b4e802bf4d29437.js",
-        "/polyfills-es5.2d656bab170045131530.js",
-        "/runtime-es2015.703a23e48ad83c851e49.js",
-        "/runtime-es5.465c2333d355155ec5f3.js",
-        "/styles.f2556ac69dda765d01e1.css"
+        "/salt/favicon.ico",
+        "/salt/index.html",
+        "/salt/main-es2015.1d050877528be59bbc76.js",
+        "/salt/main-es5.b7d4d628e0b7377fbc9c.js",
+        "/salt/polyfills-es2015.4d2c2b4e802bf4d29437.js",
+        "/salt/polyfills-es5.2d656bab170045131530.js",
+        "/salt/runtime-es2015.703a23e48ad83c851e49.js",
+        "/salt/runtime-es5.465c2333d355155ec5f3.js",
+        "/salt/styles.f2556ac69dda765d01e1.css"
       ],
       "patterns": []
     },
@@ -25,37 +25,37 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "/assets/icons/icon-128x128.png",
-        "/assets/icons/icon-144x144.png",
-        "/assets/icons/icon-152x152.png",
-        "/assets/icons/icon-192x192.png",
-        "/assets/icons/icon-384x384.png",
-        "/assets/icons/icon-512x512.png",
-        "/assets/icons/icon-72x72.png",
-        "/assets/icons/icon-96x96.png"
+        "/salt/assets/icons/icon-128x128.png",
+        "/salt/assets/icons/icon-144x144.png",
+        "/salt/assets/icons/icon-152x152.png",
+        "/salt/assets/icons/icon-192x192.png",
+        "/salt/assets/icons/icon-384x384.png",
+        "/salt/assets/icons/icon-512x512.png",
+        "/salt/assets/icons/icon-72x72.png",
+        "/salt/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/icons/icon-128x128.png": "a091130bef13f740ca9b62e20b0cfe1321188d71",
-    "/assets/icons/icon-144x144.png": "9a64102ecfd58cc34805fa90f58f881e1521c4d5",
-    "/assets/icons/icon-152x152.png": "a3f6100c3ddb73430469298c45cf691c294a425d",
-    "/assets/icons/icon-192x192.png": "d91dde751ad14bd707472af81e109d4ddf2dcc6e",
-    "/assets/icons/icon-384x384.png": "d91dde751ad14bd707472af81e109d4ddf2dcc6e",
-    "/assets/icons/icon-512x512.png": "d91dde751ad14bd707472af81e109d4ddf2dcc6e",
-    "/assets/icons/icon-72x72.png": "76827da0dccc49ac8b2b6cabc829458b4a7db972",
-    "/assets/icons/icon-96x96.png": "d74388024e259bdfc5c010716e351abcc08bca9d",
-    "/favicon.ico": "042e3e448cd52c728e8a864b3ae9bd0dfe273402",
-    "/index.html": "f1683429c4941fe18c6064833374feeb086c06d3",
-    "/main-es2015.1d050877528be59bbc76.js": "c5af3cd8e050b1a101a7a1b6ea10951f506a41c6",
-    "/main-es5.b7d4d628e0b7377fbc9c.js": "3fbaf5de010dd2f736fd0da264ddfb79c17c2a1c",
-    "/polyfills-es2015.4d2c2b4e802bf4d29437.js": "1e1ac32f769345aa209540c7b9e554aaed964504",
-    "/polyfills-es5.2d656bab170045131530.js": "666de8b50f7a6451eb64401ff43469a8f7a0a27c",
-    "/runtime-es2015.703a23e48ad83c851e49.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/runtime-es5.465c2333d355155ec5f3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/styles.f2556ac69dda765d01e1.css": "b2d9675b9a5f2979c0d3487fe4754ac7b42deaa0"
+    "/salt/assets/icons/icon-128x128.png": "a091130bef13f740ca9b62e20b0cfe1321188d71",
+    "/salt/assets/icons/icon-144x144.png": "9a64102ecfd58cc34805fa90f58f881e1521c4d5",
+    "/salt/assets/icons/icon-152x152.png": "a3f6100c3ddb73430469298c45cf691c294a425d",
+    "/salt/assets/icons/icon-192x192.png": "d91dde751ad14bd707472af81e109d4ddf2dcc6e",
+    "/salt/assets/icons/icon-384x384.png": "d91dde751ad14bd707472af81e109d4ddf2dcc6e",
+    "/salt/assets/icons/icon-512x512.png": "d91dde751ad14bd707472af81e109d4ddf2dcc6e",
+    "/salt/assets/icons/icon-72x72.png": "76827da0dccc49ac8b2b6cabc829458b4a7db972",
+    "/salt/assets/icons/icon-96x96.png": "d74388024e259bdfc5c010716e351abcc08bca9d",
+    "/salt/favicon.ico": "042e3e448cd52c728e8a864b3ae9bd0dfe273402",
+    "/salt/index.html": "5cdfe186734a75f81238607347660cfae8ea9ae0",
+    "/salt/main-es2015.1d050877528be59bbc76.js": "c5af3cd8e050b1a101a7a1b6ea10951f506a41c6",
+    "/salt/main-es5.b7d4d628e0b7377fbc9c.js": "3fbaf5de010dd2f736fd0da264ddfb79c17c2a1c",
+    "/salt/polyfills-es2015.4d2c2b4e802bf4d29437.js": "1e1ac32f769345aa209540c7b9e554aaed964504",
+    "/salt/polyfills-es5.2d656bab170045131530.js": "666de8b50f7a6451eb64401ff43469a8f7a0a27c",
+    "/salt/runtime-es2015.703a23e48ad83c851e49.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/salt/runtime-es5.465c2333d355155ec5f3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/salt/styles.f2556ac69dda765d01e1.css": "b2d9675b9a5f2979c0d3487fe4754ac7b42deaa0"
   },
   "navigationUrls": [
     {
