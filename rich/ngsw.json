@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1571106579294,
+  "timestamp": 1572886456051,
   "index": "/rich/index.html",
   "assetGroups": [
     {
@@ -13,8 +13,8 @@
         "/rich/favicon.ico",
         "/rich/firebase-messaging-sw.js",
         "/rich/index.html",
-        "/rich/main-es2015.d8b142b62963c7971099.js",
-        "/rich/main-es5.97cab5e154adb7146e0e.js",
+        "/rich/main-es2015.58c00e2c3b05649f5b48.js",
+        "/rich/main-es5.2091f8e80f2321206c8c.js",
         "/rich/polyfills-es2015.7b7f5b5ee0c234d75118.js",
         "/rich/polyfills-es5.0c3995e6a66551d69f7f.js",
         "/rich/runtime-es2015.da465c01ecd6d5c2c3a8.js",
@@ -56,9 +56,9 @@
     "/rich/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
     "/rich/firebase-messaging-sw.js": "7df1d6f611eba289d2feca6581f10ed4ff3860d4",
     "/rich/icon.png": "2c4cb0947aacec8ac494d8c4c2bcbcf9e3fbcaca",
-    "/rich/index.html": "6aa81d161daecfd91e890f77519b9920f9792232",
-    "/rich/main-es2015.d8b142b62963c7971099.js": "21f9d18afb04c5ef80b17bfb01108d930cf69b19",
-    "/rich/main-es5.97cab5e154adb7146e0e.js": "c975b19c3fc518fbc64085986a7a981169790211",
+    "/rich/index.html": "1507aeeb1cb5e1188a46bd27c66f5f0138fe3ffa",
+    "/rich/main-es2015.58c00e2c3b05649f5b48.js": "0b4c4a973d21cdcb40f3c5bb43b6b4a312db7665",
+    "/rich/main-es5.2091f8e80f2321206c8c.js": "57133efc5d8701ff342f2782c14b7fbab3581481",
     "/rich/polyfills-es2015.7b7f5b5ee0c234d75118.js": "1e1ac32f769345aa209540c7b9e554aaed964504",
     "/rich/polyfills-es5.0c3995e6a66551d69f7f.js": "666de8b50f7a6451eb64401ff43469a8f7a0a27c",
     "/rich/runtime-es2015.da465c01ecd6d5c2c3a8.js": "0513e0f0a929323d103c2b6fbe9a7e070557cf3f",
