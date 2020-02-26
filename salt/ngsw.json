@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1572887132524,
+  "timestamp": 1582741653786,
   "index": "/salt/index.html",
   "assetGroups": [
     {
@@ -10,13 +10,14 @@
       "urls": [
         "/salt/favicon.ico",
         "/salt/index.html",
-        "/salt/main-es2015.ffbfbf41ee60bdf779c8.js",
-        "/salt/main-es5.1f94bfb1dbe71937cad4.js",
-        "/salt/polyfills-es2015.4d2c2b4e802bf4d29437.js",
-        "/salt/polyfills-es5.2d656bab170045131530.js",
-        "/salt/runtime-es2015.703a23e48ad83c851e49.js",
-        "/salt/runtime-es5.465c2333d355155ec5f3.js",
-        "/salt/styles.f2556ac69dda765d01e1.css"
+        "/salt/main-es2015.cae101de77933ad5e829.js",
+        "/salt/main-es5.cae101de77933ad5e829.js",
+        "/salt/manifest.webmanifest",
+        "/salt/polyfills-es2015.835b17dc0bc3be23781c.js",
+        "/salt/polyfills-es5.0aec84a0812f9302b170.js",
+        "/salt/runtime-es2015.44f7a62596b3847c435b.js",
+        "/salt/runtime-es5.44f7a62596b3847c435b.js",
+        "/salt/styles.cb5bde8d980a503603e9.css"
       ],
       "patterns": []
     },
@@ -48,14 +49,15 @@
     "/salt/assets/icons/icon-72x72.png": "76827da0dccc49ac8b2b6cabc829458b4a7db972",
     "/salt/assets/icons/icon-96x96.png": "d74388024e259bdfc5c010716e351abcc08bca9d",
     "/salt/favicon.ico": "042e3e448cd52c728e8a864b3ae9bd0dfe273402",
-    "/salt/index.html": "952dffeed45b0753c85113e09f9dd46d19836d04",
-    "/salt/main-es2015.ffbfbf41ee60bdf779c8.js": "6b5be121ce5dc0bf049d95eb4f0b123d36aea484",
-    "/salt/main-es5.1f94bfb1dbe71937cad4.js": "80e4ff320cc63451383bf27f8b81904babe2a270",
-    "/salt/polyfills-es2015.4d2c2b4e802bf4d29437.js": "1e1ac32f769345aa209540c7b9e554aaed964504",
-    "/salt/polyfills-es5.2d656bab170045131530.js": "666de8b50f7a6451eb64401ff43469a8f7a0a27c",
-    "/salt/runtime-es2015.703a23e48ad83c851e49.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/salt/runtime-es5.465c2333d355155ec5f3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/salt/styles.f2556ac69dda765d01e1.css": "b2d9675b9a5f2979c0d3487fe4754ac7b42deaa0"
+    "/salt/index.html": "a3ab404f6c5803a072218db068b0c17c6ef27b76",
+    "/salt/main-es2015.cae101de77933ad5e829.js": "570f2aa3b1adbf43d32c777ef2f0f1bdedbd9484",
+    "/salt/main-es5.cae101de77933ad5e829.js": "5ade16448eef084951b54d7c49d246b9e2e9978f",
+    "/salt/manifest.webmanifest": "70bcbd4aa28486bf0a27704226b6618dd6f9bc2c",
+    "/salt/polyfills-es2015.835b17dc0bc3be23781c.js": "ba68f4f816ecf7320005a50ff38165d480561428",
+    "/salt/polyfills-es5.0aec84a0812f9302b170.js": "58361a7133148af8c1653287e7a096be47469228",
+    "/salt/runtime-es2015.44f7a62596b3847c435b.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/salt/runtime-es5.44f7a62596b3847c435b.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/salt/styles.cb5bde8d980a503603e9.css": "c672a9904d07279ae2d1335381495b9f6656969e"
   },
   "navigationUrls": [
     {
