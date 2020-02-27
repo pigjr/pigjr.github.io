@@ -547,12 +547,6 @@ OTHER DEALINGS IN THE SOFTWARE.
 ng2-charts
 ISC
 
-ngx-clipboard
-MIT
-
-ngx-window-token
-MIT
-
 pwa
 
 regenerator-runtime
