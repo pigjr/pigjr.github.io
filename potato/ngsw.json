@@ -1,23 +1,27 @@
 {
   "configVersion": 1,
-  "timestamp": 1582836354675,
+  "timestamp": 1614109665643,
   "index": "/potato/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
+        "/potato/5-es2015.30b53e2286b261160594.js",
+        "/potato/5-es5.30b53e2286b261160594.js",
         "/potato/favicon.ico",
         "/potato/index.html",
-        "/potato/main-es2015.bce73d123f1793adcf8e.js",
-        "/potato/main-es5.bce73d123f1793adcf8e.js",
-        "/potato/manifest.webmanifest",
-        "/potato/polyfills-es2015.b6897dbe1d9c247363ec.js",
-        "/potato/polyfills-es5.cdabe15142297a09cbb8.js",
-        "/potato/runtime-es2015.44f7a62596b3847c435b.js",
-        "/potato/runtime-es5.44f7a62596b3847c435b.js",
-        "/potato/styles.995335f22c46651e048c.css"
+        "/potato/main-es2015.9a95115a43d0d1278a6b.js",
+        "/potato/main-es5.9a95115a43d0d1278a6b.js",
+        "/potato/polyfills-es2015.40aef87b2a92816f10b0.js",
+        "/potato/polyfills-es5.e1c2e41d3948b66c97c8.js",
+        "/potato/runtime-es2015.e0b5244ec679d43bd253.js",
+        "/potato/runtime-es5.e0b5244ec679d43bd253.js",
+        "/potato/styles.13d7a668786dc6b4eefc.css"
       ],
       "patterns": []
     },
@@ -25,6 +29,9 @@
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
         "/potato/assets/icons/icon-128x128.png",
         "/potato/assets/icons/icon-144x144.png",
@@ -40,24 +47,25 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/potato/assets/icons/icon-128x128.png": "ef17301fb767a25b3641ee6fcbe7dc4a18df03e3",
-    "/potato/assets/icons/icon-144x144.png": "a98777cd3544a92b57e3f7d32ba472c01d57dc14",
-    "/potato/assets/icons/icon-152x152.png": "152049812e860928bb6ba6b8998a72ecb1e27913",
-    "/potato/assets/icons/icon-192x192.png": "32734f119a1e280d96273dfd247175166c936c5a",
-    "/potato/assets/icons/icon-384x384.png": "32734f119a1e280d96273dfd247175166c936c5a",
-    "/potato/assets/icons/icon-512x512.png": "32734f119a1e280d96273dfd247175166c936c5a",
-    "/potato/assets/icons/icon-72x72.png": "e62aa2beff4afd4362a9bc87cd68d6c473c5171d",
-    "/potato/assets/icons/icon-96x96.png": "2992ca95b25855a239f2f35a6d739ca63da8622b",
-    "/potato/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/potato/index.html": "ae00e067ce58f9cdd4cf9b345c6bc5075a1d04cf",
-    "/potato/main-es2015.bce73d123f1793adcf8e.js": "90b95735216e14792328a2deec3924f179627f84",
-    "/potato/main-es5.bce73d123f1793adcf8e.js": "3b2ddd4f8097b6294ee7330fe6a386a7068518e0",
-    "/potato/manifest.webmanifest": "cea5efea4a4a2db46a310eb85c24cbb2ce22fab0",
-    "/potato/polyfills-es2015.b6897dbe1d9c247363ec.js": "ba68f4f816ecf7320005a50ff38165d480561428",
-    "/potato/polyfills-es5.cdabe15142297a09cbb8.js": "58361a7133148af8c1653287e7a096be47469228",
-    "/potato/runtime-es2015.44f7a62596b3847c435b.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/potato/runtime-es5.44f7a62596b3847c435b.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/potato/styles.995335f22c46651e048c.css": "77206604ba211c7c50907d6691113c17bd5efe63"
+    "/potato/5-es2015.30b53e2286b261160594.js": "4bd95cfdf128c6fadc1814101ef38378d84e1fbf",
+    "/potato/5-es5.30b53e2286b261160594.js": "4bd95cfdf128c6fadc1814101ef38378d84e1fbf",
+    "/potato/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/potato/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/potato/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/potato/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/potato/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/potato/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/potato/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/potato/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/potato/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/potato/index.html": "74c5faa995c4802ff975cb247620d4ab223b3502",
+    "/potato/main-es2015.9a95115a43d0d1278a6b.js": "651a4e08f7b1ed8e5e629c618060c8b6e615c893",
+    "/potato/main-es5.9a95115a43d0d1278a6b.js": "4ac4c153ccecfeb18cfbc80abcfaa02b85778774",
+    "/potato/polyfills-es2015.40aef87b2a92816f10b0.js": "2776a0f967851d41b22d098fbd5bb610c6020c74",
+    "/potato/polyfills-es5.e1c2e41d3948b66c97c8.js": "847ef1fe185f1aa803fcd5e5836ded3d8609acb4",
+    "/potato/runtime-es2015.e0b5244ec679d43bd253.js": "9f77931cb7eb8bf2ed1eb0648b4de0918fd57481",
+    "/potato/runtime-es5.e0b5244ec679d43bd253.js": "c2486d65b9a4f21c408e27396b8bddb28345b65f",
+    "/potato/styles.13d7a668786dc6b4eefc.css": "03a93f0c92fc569c0732703e3878ad859d489d23"
   },
   "navigationUrls": [
     {
@@ -76,5 +84,6 @@
       "positive": false,
       "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
     }
-  ]
+  ],
+  "navigationRequestStrategy": "performance"
 }
