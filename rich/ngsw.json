@@ -1,25 +1,28 @@
 {
   "configVersion": 1,
-  "timestamp": 1582836131517,
+  "timestamp": 1614184520850,
   "index": "/rich/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
-        "/rich/5-es2015.9e281566d7bb2903cde6.js",
-        "/rich/5-es5.9e281566d7bb2903cde6.js",
+        "/rich/5-es2015.1aa7804fba31fbe44a96.js",
+        "/rich/5-es5.1aa7804fba31fbe44a96.js",
         "/rich/favicon.ico",
         "/rich/firebase-messaging-sw.js",
         "/rich/index.html",
-        "/rich/main-es2015.41a26b5029a203a6a614.js",
-        "/rich/main-es5.41a26b5029a203a6a614.js",
-        "/rich/polyfills-es2015.1cd7f7f9868cbdf4d437.js",
-        "/rich/polyfills-es5.fccf30aaa98cc91be99c.js",
-        "/rich/runtime-es2015.a766151a63b0e5d86ed4.js",
-        "/rich/runtime-es5.a766151a63b0e5d86ed4.js",
-        "/rich/styles.2300ce16854bbfcf90c0.css"
+        "/rich/main-es2015.672aae696b4e97a9a9e1.js",
+        "/rich/main-es5.672aae696b4e97a9a9e1.js",
+        "/rich/polyfills-es2015.e00ac60e898974a54ebf.js",
+        "/rich/polyfills-es5.e90bd6863f892c2dac1e.js",
+        "/rich/runtime-es2015.623b7f89187141ca6e7b.js",
+        "/rich/runtime-es5.623b7f89187141ca6e7b.js",
+        "/rich/styles.5b3e28dd04eb7d620449.css"
       ],
       "patterns": []
     },
@@ -27,6 +30,9 @@
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
         "/rich/assets/icons/icon-128x128.png",
         "/rich/assets/icons/icon-144x144.png",
@@ -43,8 +49,8 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/rich/5-es2015.9e281566d7bb2903cde6.js": "051d7c8aae9a0956d186e8d4d6629d5cc3585a5c",
-    "/rich/5-es5.9e281566d7bb2903cde6.js": "051d7c8aae9a0956d186e8d4d6629d5cc3585a5c",
+    "/rich/5-es2015.1aa7804fba31fbe44a96.js": "c894a3af71c8395f09903568876c7f8b4a5352ce",
+    "/rich/5-es5.1aa7804fba31fbe44a96.js": "c894a3af71c8395f09903568876c7f8b4a5352ce",
     "/rich/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/rich/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/rich/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -56,14 +62,14 @@
     "/rich/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
     "/rich/firebase-messaging-sw.js": "7df1d6f611eba289d2feca6581f10ed4ff3860d4",
     "/rich/icon.png": "2c4cb0947aacec8ac494d8c4c2bcbcf9e3fbcaca",
-    "/rich/index.html": "4d0ba1cafc0cc9a1d42a37e85061790467c8d204",
-    "/rich/main-es2015.41a26b5029a203a6a614.js": "1203bde163fcd2977019250dc3e66616587e0bb5",
-    "/rich/main-es5.41a26b5029a203a6a614.js": "7f1b16ff38d7d9663ae42388ddc68a1948f12f0a",
-    "/rich/polyfills-es2015.1cd7f7f9868cbdf4d437.js": "ba68f4f816ecf7320005a50ff38165d480561428",
-    "/rich/polyfills-es5.fccf30aaa98cc91be99c.js": "58361a7133148af8c1653287e7a096be47469228",
-    "/rich/runtime-es2015.a766151a63b0e5d86ed4.js": "f94e5674cf89a41822eb44bb2ecce4de9f55f19c",
-    "/rich/runtime-es5.a766151a63b0e5d86ed4.js": "b62e28d38de8380f33692b1dd47145a9478737ac",
-    "/rich/styles.2300ce16854bbfcf90c0.css": "0d97f5dd57363dba41029e660388908d3d470541"
+    "/rich/index.html": "91fe534ac1f957bafdc2d453f32ae98eda9d5460",
+    "/rich/main-es2015.672aae696b4e97a9a9e1.js": "f74bdad6547bbc042d7e27c7920b4538b6b7412a",
+    "/rich/main-es5.672aae696b4e97a9a9e1.js": "e531153081104e6c2603b98b29140c9ee399bd56",
+    "/rich/polyfills-es2015.e00ac60e898974a54ebf.js": "5c6189b7a26689fe95d3ef2242a5e1ea2561a239",
+    "/rich/polyfills-es5.e90bd6863f892c2dac1e.js": "516e482105ad5d2020475b1623c4e91038850ba5",
+    "/rich/runtime-es2015.623b7f89187141ca6e7b.js": "2bbb5a71b6e703d808a1c5cec18923584c899ba2",
+    "/rich/runtime-es5.623b7f89187141ca6e7b.js": "31d3774621cc4e91feb9dabe68d1d8c65fb22c4e",
+    "/rich/styles.5b3e28dd04eb7d620449.css": "7ad6760ed062967ad9f1079c13c1f6ba5e550874"
   },
   "navigationUrls": [
     {
@@ -82,5 +88,6 @@
       "positive": false,
       "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
     }
-  ]
+  ],
+  "navigationRequestStrategy": "performance"
 }

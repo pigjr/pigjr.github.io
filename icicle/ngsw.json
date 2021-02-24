@@ -1,23 +1,28 @@
 {
   "configVersion": 1,
-  "timestamp": 1582836563452,
+  "timestamp": 1614185092143,
   "index": "/icicle/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
+        "/icicle/5-es2015.28e6e9decc4fd97a4245.js",
+        "/icicle/5-es5.28e6e9decc4fd97a4245.js",
         "/icicle/favicon.ico",
         "/icicle/index.html",
-        "/icicle/main-es2015.c8f5f4c68481d4fd517f.js",
-        "/icicle/main-es5.c8f5f4c68481d4fd517f.js",
+        "/icicle/main-es2015.affaefe4e298f727c3e3.js",
+        "/icicle/main-es5.affaefe4e298f727c3e3.js",
         "/icicle/manifest.webmanifest",
-        "/icicle/polyfills-es2015.835b17dc0bc3be23781c.js",
-        "/icicle/polyfills-es5.0aec84a0812f9302b170.js",
-        "/icicle/runtime-es2015.44f7a62596b3847c435b.js",
-        "/icicle/runtime-es5.44f7a62596b3847c435b.js",
-        "/icicle/styles.995335f22c46651e048c.css"
+        "/icicle/polyfills-es2015.22a5eacf9347620aa25b.js",
+        "/icicle/polyfills-es5.afb39f083ffdde73a3fc.js",
+        "/icicle/runtime-es2015.cce19a61c8c1408ec625.js",
+        "/icicle/runtime-es5.cce19a61c8c1408ec625.js",
+        "/icicle/styles.0c4a501432d3507e4d5b.css"
       ],
       "patterns": []
     },
@@ -25,6 +30,9 @@
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
         "/icicle/assets/icons/icon-128x128.png",
         "/icicle/assets/icons/icon-144x144.png",
@@ -40,6 +48,8 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "/icicle/5-es2015.28e6e9decc4fd97a4245.js": "c31c336fff9c1d5ee87b6426dbc33c0329e3b2de",
+    "/icicle/5-es5.28e6e9decc4fd97a4245.js": "9e2191a550d9e263ee3f1e5eea2b45f6a271322d",
     "/icicle/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/icicle/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/icicle/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -49,15 +59,15 @@
     "/icicle/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/icicle/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/icicle/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/icicle/index.html": "903007d96ed6272eab9762267be130aae563ea78",
-    "/icicle/main-es2015.c8f5f4c68481d4fd517f.js": "c66b73090656344a9e7210a25a506d73edb4649a",
-    "/icicle/main-es5.c8f5f4c68481d4fd517f.js": "a0c38dfddf1d4ed72a7d6d8a19b2687f5c89e248",
+    "/icicle/index.html": "e190482ed4d17815f52a737bfc99fbb5680e75cf",
+    "/icicle/main-es2015.affaefe4e298f727c3e3.js": "8cca9534b3bb0a9532a48bb5db09174972f1f82d",
+    "/icicle/main-es5.affaefe4e298f727c3e3.js": "4dfb27c23e183262028afd1d6b1ed25081c4862e",
     "/icicle/manifest.webmanifest": "be7a92b94ee1fba33ea723fd163673be21c59905",
-    "/icicle/polyfills-es2015.835b17dc0bc3be23781c.js": "ba68f4f816ecf7320005a50ff38165d480561428",
-    "/icicle/polyfills-es5.0aec84a0812f9302b170.js": "58361a7133148af8c1653287e7a096be47469228",
-    "/icicle/runtime-es2015.44f7a62596b3847c435b.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/icicle/runtime-es5.44f7a62596b3847c435b.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/icicle/styles.995335f22c46651e048c.css": "77206604ba211c7c50907d6691113c17bd5efe63"
+    "/icicle/polyfills-es2015.22a5eacf9347620aa25b.js": "a5028a76d27a2773721a89d2d873def19292a094",
+    "/icicle/polyfills-es5.afb39f083ffdde73a3fc.js": "bae4db111602dec3574ab1ed07193f4c185fdd46",
+    "/icicle/runtime-es2015.cce19a61c8c1408ec625.js": "951fd0f98ccec0355643d3dd9353623011ccd721",
+    "/icicle/runtime-es5.cce19a61c8c1408ec625.js": "08c12fa05b66087556cdf809f20f13f4ab9bbbe8",
+    "/icicle/styles.0c4a501432d3507e4d5b.css": "03a93f0c92fc569c0732703e3878ad859d489d23"
   },
   "navigationUrls": [
     {
@@ -76,5 +86,6 @@
       "positive": false,
       "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
     }
-  ]
+  ],
+  "navigationRequestStrategy": "performance"
 }

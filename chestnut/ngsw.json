@@ -1,25 +1,30 @@
 {
   "configVersion": 1,
-  "timestamp": 1582836465283,
+  "timestamp": 1614184933620,
   "index": "/chestnut/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
-        "/chestnut/5-es2015.9e281566d7bb2903cde6.js",
-        "/chestnut/5-es5.9e281566d7bb2903cde6.js",
+        "/chestnut/5-es2015.56d78b92541e3ca8ce3d.js",
+        "/chestnut/5-es5.56d78b92541e3ca8ce3d.js",
+        "/chestnut/6-es2015.e2efd61cf747340c5035.js",
+        "/chestnut/6-es5.e2efd61cf747340c5035.js",
         "/chestnut/favicon.ico",
         "/chestnut/firebase-messaging-sw.js",
         "/chestnut/index.html",
-        "/chestnut/main-es2015.26ce4a912c3a2b28cda4.js",
-        "/chestnut/main-es5.26ce4a912c3a2b28cda4.js",
-        "/chestnut/polyfills-es2015.835b17dc0bc3be23781c.js",
-        "/chestnut/polyfills-es5.0aec84a0812f9302b170.js",
-        "/chestnut/runtime-es2015.a766151a63b0e5d86ed4.js",
-        "/chestnut/runtime-es5.a766151a63b0e5d86ed4.js",
-        "/chestnut/styles.995335f22c46651e048c.css"
+        "/chestnut/main-es2015.b1266d416e391211a8cb.js",
+        "/chestnut/main-es5.b1266d416e391211a8cb.js",
+        "/chestnut/polyfills-es2015.4a3a049909d0661cc6ed.js",
+        "/chestnut/polyfills-es5.1bea6520b9b5446019e7.js",
+        "/chestnut/runtime-es2015.cbe8ea701cdb51613519.js",
+        "/chestnut/runtime-es5.cbe8ea701cdb51613519.js",
+        "/chestnut/styles.13d7a668786dc6b4eefc.css"
       ],
       "patterns": []
     },
@@ -27,6 +32,9 @@
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
         "/chestnut/assets/icons/icon-128x128.png",
         "/chestnut/assets/icons/icon-144x144.png",
@@ -42,8 +50,10 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/chestnut/5-es2015.9e281566d7bb2903cde6.js": "051d7c8aae9a0956d186e8d4d6629d5cc3585a5c",
-    "/chestnut/5-es5.9e281566d7bb2903cde6.js": "051d7c8aae9a0956d186e8d4d6629d5cc3585a5c",
+    "/chestnut/5-es2015.56d78b92541e3ca8ce3d.js": "a6d650242ac4059cdfa5c2b28df69e0c5e2cbb41",
+    "/chestnut/5-es5.56d78b92541e3ca8ce3d.js": "a6d650242ac4059cdfa5c2b28df69e0c5e2cbb41",
+    "/chestnut/6-es2015.e2efd61cf747340c5035.js": "6b238f50455c36b735958b26a8068d35f6bb7c0f",
+    "/chestnut/6-es5.e2efd61cf747340c5035.js": "c93e07e8c78e07a89fb98c89b5ddb1d183fc209c",
     "/chestnut/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/chestnut/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/chestnut/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -54,14 +64,14 @@
     "/chestnut/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/chestnut/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
     "/chestnut/firebase-messaging-sw.js": "0a73e1da3cde48d1e80185d3f0ad442e2035ee58",
-    "/chestnut/index.html": "4a1d0c90b32f8d93461946ea06b918625d16fa64",
-    "/chestnut/main-es2015.26ce4a912c3a2b28cda4.js": "9a63b81b505cdb51bc19f9d65a0faaa04fe84928",
-    "/chestnut/main-es5.26ce4a912c3a2b28cda4.js": "7357b11ada1efa3ce725a9577079b2b1abbb43a2",
-    "/chestnut/polyfills-es2015.835b17dc0bc3be23781c.js": "ba68f4f816ecf7320005a50ff38165d480561428",
-    "/chestnut/polyfills-es5.0aec84a0812f9302b170.js": "58361a7133148af8c1653287e7a096be47469228",
-    "/chestnut/runtime-es2015.a766151a63b0e5d86ed4.js": "f94e5674cf89a41822eb44bb2ecce4de9f55f19c",
-    "/chestnut/runtime-es5.a766151a63b0e5d86ed4.js": "b62e28d38de8380f33692b1dd47145a9478737ac",
-    "/chestnut/styles.995335f22c46651e048c.css": "77206604ba211c7c50907d6691113c17bd5efe63"
+    "/chestnut/index.html": "8ea52b4856f9da3499adcedf688d1ce0128713f8",
+    "/chestnut/main-es2015.b1266d416e391211a8cb.js": "bdb683182b0e0fe7e1683322cf90e3923c2edd98",
+    "/chestnut/main-es5.b1266d416e391211a8cb.js": "cefb475616f4c7766338c94b1f337ddbf11691e5",
+    "/chestnut/polyfills-es2015.4a3a049909d0661cc6ed.js": "f599f3cf3d9471796b0e77369006d6c81e88c91e",
+    "/chestnut/polyfills-es5.1bea6520b9b5446019e7.js": "b4901971219c4d139758bca7442a646cb408794b",
+    "/chestnut/runtime-es2015.cbe8ea701cdb51613519.js": "0c260e32e4e4d659795b47369e61c58f10dc9fc2",
+    "/chestnut/runtime-es5.cbe8ea701cdb51613519.js": "9f31bf2c4852a6077e3f1df88cd98ea89917966d",
+    "/chestnut/styles.13d7a668786dc6b4eefc.css": "03a93f0c92fc569c0732703e3878ad859d489d23"
   },
   "navigationUrls": [
     {
@@ -80,5 +90,6 @@
       "positive": false,
       "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
     }
-  ]
+  ],
+  "navigationRequestStrategy": "performance"
 }

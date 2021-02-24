@@ -1,22 +1,25 @@
 {
   "configVersion": 1,
-  "timestamp": 1582836071229,
+  "timestamp": 1614184434149,
   "index": "/home/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
         "/home/favicon.ico",
         "/home/index.html",
-        "/home/main-es2015.e0ff4a9868e99f55d488.js",
-        "/home/main-es5.e0ff4a9868e99f55d488.js",
-        "/home/polyfills-es2015.b7d9cf532adb5815002b.js",
-        "/home/polyfills-es5.3519928cadf9ea3a77d1.js",
-        "/home/runtime-es2015.44f7a62596b3847c435b.js",
-        "/home/runtime-es5.44f7a62596b3847c435b.js",
-        "/home/styles.2300ce16854bbfcf90c0.css"
+        "/home/main-es2015.5f9ab81d242b6a36a33f.js",
+        "/home/main-es5.5f9ab81d242b6a36a33f.js",
+        "/home/polyfills-es2015.d9c9a4e8a866aa1be7bd.js",
+        "/home/polyfills-es5.396168091a9fdc272b4d.js",
+        "/home/runtime-es2015.4008b8a4bb7b8c9cd11f.js",
+        "/home/runtime-es5.4008b8a4bb7b8c9cd11f.js",
+        "/home/styles.5b3e28dd04eb7d620449.css"
       ],
       "patterns": []
     },
@@ -24,6 +27,9 @@
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
         "/home/assets/icons/icon-128x128.png",
         "/home/assets/icons/icon-144x144.png",
@@ -56,14 +62,14 @@
     "/home/assets/img/floor.jpg": "b37e32ead04fe20c1a4ce6576f838daaa89bf833",
     "/home/assets/img/sky.jpg": "b9aebc56e53fd6629c1b644a39c64d7c31eeab48",
     "/home/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/home/index.html": "ae29752c023e5a6d6d6b9ae1b02c15737159b172",
-    "/home/main-es2015.e0ff4a9868e99f55d488.js": "a59819dc6cb649e57c97a52ddde607eeb144e7f9",
-    "/home/main-es5.e0ff4a9868e99f55d488.js": "e6e1249459031761317aa8f45f4dd9cd2b809550",
-    "/home/polyfills-es2015.b7d9cf532adb5815002b.js": "f8a481cf635c5be1ff1156a98f8061b649dde91a",
-    "/home/polyfills-es5.3519928cadf9ea3a77d1.js": "1ae0eaecf77e46c37cbc8438a2ccb7e0e4bb0a9c",
-    "/home/runtime-es2015.44f7a62596b3847c435b.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/home/runtime-es5.44f7a62596b3847c435b.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/home/styles.2300ce16854bbfcf90c0.css": "0d97f5dd57363dba41029e660388908d3d470541"
+    "/home/index.html": "6075bed0b8ad10da50affd87ba7adeff0c2ce7c6",
+    "/home/main-es2015.5f9ab81d242b6a36a33f.js": "d3d3ef7f0b24a367b09c3e52cccd08f9592974a8",
+    "/home/main-es5.5f9ab81d242b6a36a33f.js": "80cda47f21ef58091efecf0035a2da032fe69fa7",
+    "/home/polyfills-es2015.d9c9a4e8a866aa1be7bd.js": "1123a700d49cc1f1021f0f6ec3e54343f9fcc1cb",
+    "/home/polyfills-es5.396168091a9fdc272b4d.js": "6ca3c2907a9cb3a3e249df022a46f848bb77cc95",
+    "/home/runtime-es2015.4008b8a4bb7b8c9cd11f.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/home/runtime-es5.4008b8a4bb7b8c9cd11f.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/home/styles.5b3e28dd04eb7d620449.css": "7ad6760ed062967ad9f1079c13c1f6ba5e550874"
   },
   "navigationUrls": [
     {
@@ -82,5 +88,6 @@
       "positive": false,
       "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
     }
-  ]
+  ],
+  "navigationRequestStrategy": "performance"
 }
